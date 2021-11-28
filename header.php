@@ -53,11 +53,12 @@
     </style>
   </head>
   <body>
-    <?php include 'database.php';
-    global $db;
-     ?>
+    <?php
+      include 'database.php';
+      global $db;
+    ?>
     <nav class="menu_nav">
-        
+
   		<ul id='nav'>
             <img src="logo.jpeg" class="logo">
   			<li class="nav_li"><a href="">Discover Israel</a></li>
