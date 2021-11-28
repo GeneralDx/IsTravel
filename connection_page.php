@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php
+	require_once 'header.php';
+	?>
 
 <!DOCTYPE html>
 <html>
@@ -30,4 +32,6 @@
 </body>
 </html>
 
-<?php include 'footer.php'; ?>
+<?php
+	require_once 'footer.php';
+	?>

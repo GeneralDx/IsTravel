@@ -60,7 +60,7 @@
     <nav class="menu_nav">
 
   		<ul id='nav'>
-            <img src="logo.jpeg" class="logo">
+            <a href="/IsTravel/homepage.php"><img src="logo.jpeg" class="logo"></a>
   			<?php
           if (isset($_SESSION['Type'])) {
             if ($_SESSION['Type'] == 'admin') {

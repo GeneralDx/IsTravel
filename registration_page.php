@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php
+	require_once 'header.php';
+	?>
 
 <!DOCTYPE html>
 <html>
@@ -23,7 +25,7 @@
 		<input type="submit" name="formsend_registration" id="formsend_registration" value="Sign in">
 	</form>
 
-  <?php 
+  <?php
     include 'registration.php'
   ?>
 
@@ -34,4 +36,6 @@
 </body>
 </html>
 
-<?php include 'footer.php'; ?>
+<?php
+	require_once 'footer.php';
+	?>

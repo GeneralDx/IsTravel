@@ -9,18 +9,21 @@
       body {
         background-image: url('wallpaper.jpg');
         background-repeat: no-repeat;
-        background-attachment: fixed;  
+        background-attachment: fixed;
         background-size: cover;
         }
-        
+
     </style>
 </head>
 <body>
     <?php
       require_once 'header.php';
       ?>
-      
+
     <h1>Visit of Tel Aviv</h1>
     <a class="button" href="/discover/visit"></a>
+    <?php
+      require_once 'footer.php';
+      ?>
 </body>
 </html>
