@@ -19,6 +19,9 @@
 						'type' => $type
 					]);
 					echo "Your account was successfully created !";
+					?>
+						<meta http-equiv="refresh" content="0.0001;URL=/IsTravel/homepage.php">
+					<?php
 				} else {
 					echo "An account already exists with this email";
 				}

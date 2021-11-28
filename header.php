@@ -61,23 +61,59 @@
 
   		<ul id='nav'>
             <img src="logo.jpeg" class="logo">
-  			<li class="nav_li"><a href="">Discover Israel</a></li>
+  			<?php
+          if (isset($_SESSION['Type'])) {
+            if ($_SESSION['Type'] == 'admin') {
+              ?>
+              <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="">Activities</a></li>
+              <li class="nav_li"><a href="">Activities proposition</a></li>
+              <li class="nav_li"><a href="">Contact us</a></li>
+              <?php
+            } else if ($_SESSION['Type'] == 'manager') {
+              ?>
+              <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="">Activities</a></li>
+              <li class="nav_li"><a href="">Propose an activity</a></li>
+              <li class="nav_li"><a href="">Contact us</a></li>
+              <?php
+            } else {
+              ?>
+              <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="">Activities</a></li>
+              <li class="nav_li"><a href="">Contact us</a></li>
+              <?php
+            }
+          } else {
+            ?>
+            <li class="nav_li"><a href="">Trip in Israel</a></li>
+            <li class="nav_li"><a href="">Activities</a></li>
+            <li class="nav_li"><a href="">Contact us</a></li>
+            <?php
+          }
 
-  			<li class="nav_li"><a href="">Food & Drinks</a></li>
 
-  			<li class="nav_li"><a href="">Festivals & Events</a></li>
-
-        <li class="nav_li"><a href="">Plan your visit</a></li>
-
-      <li class="nav_li"><a href="">Contact</a></li>
+        ?>
   		</ul>
-  	</nav><br><br>
+      <?php
+        if (!isset($_SESSION['Mail'])) {
+      ?>
 
-    <?php
-    if (isset($_SESSION['Mail'])) {
-      require_once 'deconnection.php';
-    }
-     ?>
+      <?php
+        }
+      ?>
+
+      <?php
+        if (isset($_SESSION['Mail'])) {
+          require_once 'deconnection.php';
+        } else {
+      ?>
+        <button type="submit" name="button_sign_up"><a href="/IsTravel/connection_page.php">Sign up</a></button>
+        <button type="submit" name="button_sign_in"><a href="/IsTravel/registration_page.php">Sign in</a></button>
+      <?php
+        }
+      ?>
+  	</nav><br><br>
 
   </body>
 </html>
