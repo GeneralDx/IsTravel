@@ -6,9 +6,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Sign up</title>
+	<title>Sign in</title>
 	<style>
-		
+
 		* {box-sizing: border-box}
 
 /* Add padding to containers */
@@ -30,7 +30,7 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: blue;
   outline: none;
 }
-#signin{
+#formsend_connection{
 	background-color: blue;
 	color: white;
 	width: 100px;
@@ -49,8 +49,8 @@ h1,p,b{
 	color: blue;
 }
 #si{
-	font-size: 30px; 
-	
+	font-size: 30px;
+
 }
 #su{
 	text-decoration: none;
@@ -81,7 +81,7 @@ a {
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
-.signin {
+.formsend_connection {
   background-color: blue;
   text-align: center;
 }
@@ -91,18 +91,14 @@ a {
 
   <div id="connection">
 	<p id="si">Sign in</p>
+	<form method="post">
   	<label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-	<input type="submit" name="formsend_connection" id="signin" value="Sign in">
-
-		<!-- <form method="post">
-			<input type="email" name="email" id="email" placeholder="E-mail" required><br/>
-			<input type="password" name="password" id="password" placeholder="Password" required><br/>
-			<input type="submit" name="formsend_connection" id="formsend_connection" value="Sign up">
-		</form> -->
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+	<input type="submit" name="formsend_connection" id="formsend_connection" value="Sign in">
+	</form>
 
     <?php
       include 'connection.php'

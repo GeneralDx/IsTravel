@@ -117,8 +117,8 @@
           require_once 'deconnection.php';
         } else {
       ?>
-        <button type="submit" name="button_sign_up"><a href="/IsTravel/connection_page.php">Sign up</a></button>
-        <button type="submit" name="button_sign_in"><a href="/IsTravel/registration_page.php">Sign in</a></button>
+        <button type="submit" name="button_sign_in"><a href="/IsTravel/connection_page.php">Sign in</a></button>
+        <button type="submit" name="button_sign_up"><a href="/IsTravel/registration_page.php">Sign up</a></button>
       <?php
         }
       ?>
