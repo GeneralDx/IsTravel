@@ -10,12 +10,15 @@
 				padding: 6px;
         text-align: center;
 			}
+		#copy{
+			color: white;
+		}
 	</style>
  </head>
  <body>
 	<footer>
 		<div class="Copyright">
-			<p>Copyright &copy; IsTravel - 2021 -	All right reserved
+			<p id="copy">Copyright &copy; IsTravel - 2021 -	All rights reserved
 			</p>
 		</div>
 	</footer>

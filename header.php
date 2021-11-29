@@ -32,7 +32,7 @@
   text-decoration: none;
     }
     li a:hover {
-  background-color: #111;
+  background-color: #00BFFF;
 }
 
 #deconnection{
@@ -45,8 +45,9 @@
   float: right;
 }
 .logo{
-    width: 60px;
-    height: 60px;
+  float: left;
+    width: 70px;
+    height: 70px;
 }
 
 
@@ -65,28 +66,36 @@
           if (isset($_SESSION['Type'])) {
             if ($_SESSION['Type'] == 'admin') {
               ?>
+              <li class="logo"><a href="logo.jpeg"></a></li>
               <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="">Activities proposition</a></li>
               <li class="nav_li"><a href="">Contact us</a></li>
               <?php
             } else if ($_SESSION['Type'] == 'manager') {
               ?>
+              <li class="logo"><a href="logo.jpeg"></a></li>
               <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="">Propose an activity</a></li>
               <li class="nav_li"><a href="">Contact us</a></li>
               <?php
             } else {
               ?>
+              <li class="logo"><a href="logo.jpeg"></a></li>
               <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="">Contact us</a></li>
               <?php
             }
           } else {
             ?>
+            <li class="logo"><a href="logo.jpeg"></a></li>
             <li class="nav_li"><a href="">Trip in Israel</a></li>
+            <li class="nav_li"><a href="">Food & Drink</a></li>
             <li class="nav_li"><a href="">Activities</a></li>
             <li class="nav_li"><a href="">Contact us</a></li>
             <?php
