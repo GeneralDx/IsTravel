@@ -14,7 +14,7 @@
 							$_SESSION['Mail'] = $result['email'];
 							$_SESSION['Type'] = $result['type'];
 							?>
-							<meta http-equiv="refresh" content="0.0001;URL=/IsTravel/homepage.php">
+							<meta http-equiv="refresh" content="0.001;URL=/IsTravel/homepage.php">
 							<?php
 							return true;
 						}	else {
@@ -32,5 +32,8 @@
 				}
 			}
 		}
+
+		$connection = new Connection();
+		$connection->connec($email, $password, $db);
 	}
 ?>

@@ -39,6 +39,8 @@
 				}
 			}
 		}
+		$registration = new Registration();
+		$registration->register($first_name, $last_name, $email, $password, $cpassword, $type, $db);
 	}
 
 ?>
