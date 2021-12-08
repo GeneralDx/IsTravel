@@ -44,7 +44,7 @@
     background-color: blue;
     outline: none;
   }
-  
+
   /* Overwrite default styles of hr */
   hr {
     border: 1px solid #f1f1f1;
@@ -118,6 +118,10 @@
     				<input type="submit" name="formsend_contact" class="contactbtn" id="formsend_contact" value="Send">
     		</form>
       </div>
+
+			<?php
+				require_once 'contact.php';
+			?>
 
   </body>
 </html>
