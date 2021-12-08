@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<style>
 		footer {
-        background-color:#0148ba;
+        background-color: blue;
         color: white;
 				margin-top: 4px;
 				padding: 6px;

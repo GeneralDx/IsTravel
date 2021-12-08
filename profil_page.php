@@ -38,7 +38,7 @@ hr {
 h1,p,b{
 	color: blue;
 }
-#c,#m{
+#c,#m, #a{
 	color: blue;
 }
 
