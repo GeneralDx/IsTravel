@@ -101,16 +101,24 @@ a {
 					<input type="radio" name="type" value="manager" id="manager">
 					<label for="manager" id="m">Manager</label><br/>
 				<?php
-				} else {
+			} else if($_SESSION['Type'] == 'manager'){
 				?>
 					<input type="radio" name="type" value="customer" id="customer" required>
 					<label for="customer" id="c">Customer</label>
 					<input type="radio" name="type" value="manager" id="manager" checked>
 					<label for="manager" id="m">Manager</label><br/>
 				<?php
-				}
+			} else if($_SESSION['Type'] == 'admin') {
 				?>
-
+				<input type="radio" name="type" value="customer" id="customer" required>
+				<label for="customer" id="c">Customer</label>
+				<input type="radio" name="type" value="manager" id="manager">
+				<label for="manager" id="m">Manager</label>
+				<input type="radio" name="type" value="admin" id="admin" checked>
+				<label for="admin" id="a">Admin</label><br/>
+			<?php
+			}
+			?>
 		    <hr>
 
 				<input type="submit" name="formsend_modification" class="modificationbtn" id="formsend_modification" value="Confirm">

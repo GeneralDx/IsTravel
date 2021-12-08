@@ -10,7 +10,7 @@
         session_unset();
         session_destroy();
         ?>
-        <meta http-equiv="refresh" content="0.0001;URL=/IsTravel/homepage.php">
+        <meta http-equiv="refresh" content="0.00001;URL=/IsTravel/homepage.php">
         <?php
       }
     ?>
