@@ -6,6 +6,7 @@
     <style>
       body {
           background-image: url("/IsTravel/img/wallpaper.jpg");
+          background-size: 100%;
       }
 
       .div_nav{
@@ -63,7 +64,18 @@
         margin-left: 50px;
         margin-right: 50px;
       }
+
       #profile_settings:hover{
+        background-color: white;
+        color: #0148ba;
+      }
+
+      #sign_in:hover{
+        background-color: white;
+        color: #0148ba;
+      }
+
+      #sign_up:hover{
         background-color: white;
         color: #0148ba;
       }
@@ -219,10 +231,10 @@
       ?>
         <ul>
           <li class="dropdown2">
-            <img src="/IsTravel/img/128-1280585_user-icon-fa-fa-user-circle.png" class="profile_img">
+            <img src="/IsTravel/img/profile_logo.png" class="profile_img">
             <div class="dropdown-user">
-              <a href="/IsTravel/connection_page.php">Sign in</a>
-              <a href="/IsTravel/registration_page.php">Sign up</a>
+              <a href="/IsTravel/connection_page.php" id="sign_in">Sign in</a>
+              <a href="/IsTravel/registration_page.php" id="sign_up">Sign up</a>
             </div>
           </li>
         </ul>
@@ -231,6 +243,5 @@
       ?>
     </div>
     </div>
-      <br><br>
   </body>
 </html>
