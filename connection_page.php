@@ -18,7 +18,7 @@
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 50%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -27,14 +27,8 @@ input[type=text], input[type=password] {
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: blue;
+  background-color: #ddd;
   outline: none;
-}
-#formsend_connection{
-	background-color: blue;
-	color: white;
-	width: 100px;
-	length: 50px;
 }
 
 /* Overwrite default styles of hr */
@@ -60,18 +54,18 @@ h1,p,b{
 
 
 /* Set a style for the submit/register button */
-.registerbtn {
-  background-color: blue;
-  color: blue;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+.formsend_connection {
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
 }
 
-.registerbtn:hover {
+.formsend_connection:hover {
   opacity:1;
 }
 
@@ -80,11 +74,6 @@ a {
   color: dodgerblue;
 }
 
-/* Set a grey background color and center the text of the "sign in" section */
-.formsend_connection {
-  background-color: blue;
-  text-align: center;
-}
 	</style>
 </head>
 <body>
@@ -92,12 +81,12 @@ a {
   <div id="connection">
 	<p id="si">Sign in</p>
 	<form method="post">
-  	<label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+  	<label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
 
-    <label for="password"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="password" id="password" required>
-	<input type="submit" name="formsend_connection" id="formsend_connection" value="Sign in">
+    <label for="password"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required><br>
+	<input type="submit" name="formsend_connection" class="formsend_connection" id="formsend_connection" value="Sign in">
 	</form>
 
     <?php

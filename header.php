@@ -6,7 +6,6 @@
     <style>
       body {
           background-image: url("/IsTravel/img/wallpaper.jpg");
-          background-size: 100%;
       }
 
       .div_nav{
@@ -52,17 +51,12 @@
         border: none;
         color: white;
         text-decoration: none;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 35px;
+        margin-right: 35px
       }
       #deconnection:hover{
         background-color: white;
         color: #0148ba;
-      }
-
-      #profile_settings{
-        margin-left: 50px;
-        margin-right: 50px;
       }
 
       #profile_settings:hover{

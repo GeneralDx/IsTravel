@@ -6,7 +6,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Sign up</title>
+	<title>Profil</title>
 	<style>
 		* {box-sizing: border-box}
 
@@ -45,18 +45,18 @@ h1,p,b{
 
 
 /* Set a style for the submit/register button */
-.registerbtn {
+.modificationbtn {
   background-color: blue;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   opacity: 0.9;
 }
 
-.registerbtn:hover {
+.modificationbtn:hover {
   opacity:1;
 }
 
@@ -65,12 +65,17 @@ a {
   color: dodgerblue;
 }
 
+/* Set a grey background color and center the text of the "sign up" section */
+.signup {
+  background-color: #f1f1f1;
+  text-align: center;
+}
 	</style>
 </head>
 <body>
 <div class="container">
-    <h1>Register</h1>
-    <p>Please fill this form to create an account.</p>
+    <h1>Profil</h1>
+    <p>Please modify your details.</p>
     <hr>
 
 		<form method="post">
@@ -96,21 +101,15 @@ a {
 
 		    <hr>
 
-		    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-				<input type="submit" name="formsend_registration" class="registerbtn" id="formsend_registration" value="Sign in">
+				<input type="submit" name="formsend_modification" class="modificationbtn" id="formsend_modification" value="Confirm">
 		</form>
   </div>
-
-
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
 
 </form>
 
   <?php
-    include 'registration.php'
+    require_once 'profil.php'
   ?>
-
-
 
 </body>
 </html>

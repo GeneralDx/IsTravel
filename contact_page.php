@@ -44,13 +44,7 @@
     background-color: blue;
     outline: none;
   }
-  #formsend_contact{
-  	background-color: blue;
-  	color: white;
-  	width: 100px;
-  	length: 50px;
-  }
-
+  
   /* Overwrite default styles of hr */
   hr {
     border: 1px solid #f1f1f1;
@@ -75,14 +69,14 @@
 
   /* Set a style for the submit/register button */
   .contactbtn {
-    background-color: blue;
-    color: blue;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+		background-color: blue;
+	  color: white;
+	  padding: 16px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 50%;
+	  opacity: 0.9;
   }
 
   .contactbtn:hover {
@@ -125,9 +119,6 @@
     		</form>
       </div>
 
-			<?php
-		    require_once 'contact.php';
-		  ?>
   </body>
 </html>
 
