@@ -125,6 +125,9 @@
     		</form>
       </div>
 
+			<?php
+		    require_once 'contact.php';
+		  ?>
   </body>
 </html>
 
