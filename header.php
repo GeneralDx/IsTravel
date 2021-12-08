@@ -64,6 +64,11 @@
         color: #0148ba;
       }
 
+      #proposition_activity:hover{
+        background-color: white;
+        color: #0148ba;
+      }
+
       #sign_in:hover{
         background-color: white;
         color: #0148ba;
@@ -180,7 +185,7 @@
               <li class="nav_li"><a href="">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
-              <li class="nav_li"><a href="">Propose an activity</a></li>
+              <li class="nav_li"><a href="/IsTravel/activity_proposition_page.php">Propose an activity</a></li>
               <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
           <?php
             } else {
@@ -213,7 +218,15 @@
               <div class="dropdown-user">
                   <p id="name"><?php echo $_SESSION['First_name']." ".$_SESSION['Last_name'];?></p>
                 <a href="/IsTravel/profil_page.php" id="profile_settings">Profile</a>
-                <?php require_once 'deconnection.php'; ?>
+
+                <?php
+                  if ($_SESSION['Type'] == 'manager'){
+                    ?>
+                      <a href="/IsTravel/my_activities_page.php" id="proposition_activity">My activities</a>
+                    <?php
+                  }
+                  require_once 'deconnection.php';
+                ?>
               </div>
             </li>
           </ul>

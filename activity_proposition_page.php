@@ -68,7 +68,7 @@
 
 
   /* Set a style for the submit/register button */
-  .activitybtn {
+  .activitypropositionbtn {
 		background-color: blue;
 	  color: white;
 	  padding: 16px 20px;
@@ -79,7 +79,7 @@
 	  opacity: 0.9;
   }
 
-  .activitybtn:hover {
+  .activitypropositionbtn:hover {
     opacity:1;
   }
 
@@ -89,7 +89,7 @@
   }
 
   /* Set a grey background color and center the text of the "sign in" section */
-  .formsend_activity {
+  .formsend_activity_proposition {
     background-color: blue;
     text-align: center;
   }
@@ -119,16 +119,16 @@
 								<option value="tiberiade">Tiberiade</option>
 							</select><br><br>
 
-    		  <label for="message"><b>Message</b></label><br>
-            <textarea placeholder="Enter a description of your activity (exact address, price range, age range, opening hours...)" name="message" id="message" cols="40" rows="5" required></textarea>
+    		  <label for="description"><b>Message</b></label><br>
+            <textarea placeholder="Enter a description of your activity (exact address, price range, age range, opening hours...)" name="description" id="description" cols="40" rows="5" required></textarea>
         <hr>
 
-    				<input type="submit" name="formsend_activity" class="activitybtn" id="formsend_activity" value="Send">
+    				<input type="submit" name="formsend_activity_proposition" class="activitypropositionbtn" id="formsend_activity_proposition" value="Send">
     		</form>
       </div>
 
 			<?php
-				require_once 'contact.php';
+				require_once 'activity_proposition.php';
 			?>
 
   </body>
