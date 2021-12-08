@@ -52,7 +52,7 @@ h1,p,b{
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   opacity: 0.9;
 }
 
@@ -80,13 +80,13 @@ a {
 
 		<form method="post">
 			<label for="first_name"><b>First Name</b></label><br>
-		    <input type="text" placeholder="Enter First Name" name="first_name" id="first_name" required><br>
+		    <input type="text" value="<?php echo $_SESSION['First_name']; ?>" name="first_name" id="first_name" required><br>
 
 			<label for="last_name"><b>Last Name</b></label><br>
-		    <input type="text" placeholder="Enter Last Name" name="last_name" id="last_name" required><br>
+		    <input type="text" value="<?php echo $_SESSION['Last_name']; ?>" name="last_name" id="last_name" required><br>
 
 		    <label for="email"><b>Email</b></label><br>
-		    <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+		    <input type="text" value="<?php echo $_SESSION['Mail']; ?>" name="email" id="email" required><br>
 
 		    <label for="password"><b>Password</b></label><br>
 		    <input type="password" placeholder="Enter Password" name="password" id="password" required><br>
@@ -94,18 +94,28 @@ a {
 		    <label for="cpassword"><b>Repeat Password</b></label><br>
 		    <input type="password" placeholder="Repeat Password" name="cpassword" id="cpassword" required><br>
 
-			<input type="radio" name="type" value="customer" id="customer" required>
-				<label for="customer" id="c">Customer</label>
-				<input type="radio" name="type" value="manager" id="manager">
-				<label for="manager" id="m">Manager</label><br/>
+				<?php if ($_SESSION['Type'] == 'customer') {
+				?>
+					<input type="radio" name="type" value="customer" id="customer" required checked>
+					<label for="customer" id="c">Customer</label>
+					<input type="radio" name="type" value="manager" id="manager">
+					<label for="manager" id="m">Manager</label><br/>
+				<?php
+				} else {
+				?>
+					<input type="radio" name="type" value="customer" id="customer" required>
+					<label for="customer" id="c">Customer</label>
+					<input type="radio" name="type" value="manager" id="manager" checked>
+					<label for="manager" id="m">Manager</label><br/>
+				<?php
+				}
+				?>
 
 		    <hr>
 
 				<input type="submit" name="formsend_modification" class="modificationbtn" id="formsend_modification" value="Confirm">
 		</form>
   </div>
-
-</form>
 
   <?php
     require_once 'profil.php'

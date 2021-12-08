@@ -11,6 +11,8 @@
 					if($result == true)	{
 						$hashpassword = $result['password'];
 						if(password_verify($password, $hashpassword)) {
+							$_SESSION['First_name'] = $result['first_name'];
+							$_SESSION['Last_name'] = $result['last_name'];
 							$_SESSION['Mail'] = $result['email'];
 							$_SESSION['Type'] = $result['type'];
 							?>

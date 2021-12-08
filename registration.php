@@ -20,6 +20,10 @@
 								'password' => $hashpass,
 								'type' => $type
 							]);
+							$_SESSION['First_name'] = $first_name;
+							$_SESSION['Last_name'] = $last_name;
+							$_SESSION['Mail'] = $email;
+							$_SESSION['Type'] = $type;
 							echo "Your account was successfully created !";
 							?>
 								<meta http-equiv="refresh" content="0.0001;URL=/IsTravel/homepage.php">

@@ -211,11 +211,8 @@
             <li class="dropdown2">
               <img src="/IsTravel/img/profile_logo.png" class="profile_img">
               <div class="dropdown-user">
-                <?php $q = $db->query("SELECT * FROM user WHERE email ='".$_SESSION['Mail']."' ");
-                $result = $q->fetch();
-                ?>
-                  <p id="name"><?php echo $result['first_name']." ".$result['last_name'];?></p>
-                <a href="" id="profile_settings">Profile</a>
+                  <p id="name"><?php echo $_SESSION['First_name']." ".$_SESSION['Last_name'];?></p>
+                <a href="/IsTravel/profil_page.php" id="profile_settings">Profile</a>
                 <?php require_once 'deconnection.php'; ?>
               </div>
             </li>
