@@ -4,106 +4,143 @@
   <head>
     <meta charset="utf-8">
     <style>
-      body{
-        background-image: url("/IsTravel/img/wallpaper.jpg");
-         }
-      .menu_nav{
+      body {
+          background-image: url("/IsTravel/img/wallpaper.jpg");
+      }
+
+      .div_nav{
         background-color: #FFFFFF;
-  overflow: hidden;
-  text-align: center;
-  font-size: 15px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 35px;
+        margin-bottom: 35px;
       }
+
       #nav{
-         list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFFFFF;
+        list-style-type: none;
+        margin-right: auto;
+        margin-left: auto;
+        height: min-content;
+        margin-top: auto;
+        margin-bottom: auto;
+        overflow: hidden;
+        padding: 0px;
+        background-color: #FFFFFF;
+      }
+
+      .nav_li {
+        float: left;
+      }
+
+      .nav_li a{
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 27.5px 25px;
+        text-decoration: none;
+       }
+
+      li a:hover {
+        background-color: #0148ba;
+        color: white;
+      }
+
+      #deconnection{
+        background-color: #0148ba;
+        border: none;
+        color: white;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      #deconnection:hover{
+        background-color: white;
+        color: #0148ba;
+      }
+
+      #profile_settings{
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      #profile_settings:hover{
+        background-color: white;
+        color: #0148ba;
+      }
+
+      .logo{
+        float: left;
+          width: 90px;
+          height: 90px;
+      }
+      .profile_img{
+        float: right;
+        width: 60px;
+        height: 60px;
+        padding: 7.5px;
+        margin-right: 25px;
+        margin-top: 20px;
+      }
+
+      .dropdown-user {
+      left:84.3%;
+      position: absolute;
+      display: none;
+      z-index: 1;
+      padding: 10px;
+      width: 150px;
+      border-radius: 5px;
+      border: 2px solid white;
+      background-color:rgba(1, 72, 186);
+      transition: all 0.2s;
+      }
+      .dropdown-user a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      text-align: center;
 
       }
-      .nav_li {
-  float: left;
-}
-    .nav_li a{
-       display: block;
-  color: blue;
-  text-align: center;
-  padding: 27.5px 25px;
-  text-decoration: none;
-    }
-    li a:hover {
-  background-color: #0148ba;
-  color: white;
-}
+      .dropdown-user a:hover {
+        color: #d6d6d6;
+      }
 
-#deconnection{
-  background-color: #0148ba;
-  border: none;
-  color: white;
-  text-decoration: none;
-}
-#deconnection:hover{
-  background-color: white;
-  color: #0148ba;
-}
+      .dropdown2:hover .dropdown-user {
+        display:block;
+        cursor: pointer;
+      }
 
-#profile_settings{
-  margin-left: 48px;
-  margin-right: 48px;
-}
-#profile_settings:hover{
-  background-color: white;
-  color: #0148ba;
-}
+      ul {
+        list-style-type: none;
+      }
 
-.logo{
-  float: left;
-    width: 70px;
-    height: 70px;
-}
-.profile_img{
-    float: right;
-    width: 75px;
-    height: 57.5px;
-    padding: 7.5px;
-    margin-right:25px;
-}
+      #name{
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+      }
 
-.dropdown-user {
-left:84.3%;
-position: absolute;
-display: none;
-z-index: 1;
-padding: 10px;
-width: 150px;
-border-radius: 5px;
-border: 2px solid white;
-background-color:rgba(1, 72, 186);
-transition: all 0.2s;
-}
-.dropdown-user a {
-color: white;
-text-decoration: none;
-display: block;
-text-align: center;
+      .div_user {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
 
-}
-.dropdown-user a:hover {
-color: #d6d6d6;
-}
+      .div_logo{
+      	margin-right:auto;
+      	margin-left: auto;
+      	height:fit-content;
+      	margin-top:20px;
+      	margin-bottom:10px;
+      }
 
-  .dropdown2:hover .dropdown-user {
-display:block;
-cursor: pointer;
-
-}
-#name{
-  color: black;
-  background-color: white;
-  border-radius: 5px;
-  margin: 10px;
-  padding: 5px;
-}
+      .menu_nav{
+        display: flex;
+      }
 
 
     </style>
@@ -113,11 +150,17 @@ cursor: pointer;
       include 'database.php';
       global $db;
     ?>
-    <nav class="menu_nav">
+    <div class="menu_nav">
 
-  		<ul id='nav'>
-            <a href="/IsTravel/homepage.php"><img src="/IsTravel/img/logo.jpeg" class="logo"></a>
-  			<?php
+
+    <div class="div_logo">
+        <a href="/IsTravel/homepage.php"><img src="/IsTravel/img/logo.png" class="logo"></a>
+    </div>
+
+    <div class="div_nav">
+    	<ul id='nav'>
+
+    		<?php
           if (isset($_SESSION['Type'])) {
             if ($_SESSION['Type'] == 'admin') {
               ?>
@@ -125,39 +168,42 @@ cursor: pointer;
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="">Activities proposition</a></li>
-              <?php
-            } else if ($_SESSION['Type'] == 'manager') {
-              ?>
+            <?php
+              } else if ($_SESSION['Type'] == 'manager') {
+            ?>
               <li class="nav_li"><a href="">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="">Propose an activity</a></li>
-              <li class="nav_li"><a href="">Contact us</a></li>
-              <?php
+              <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
+          <?php
             } else {
-              ?>
+          ?>
               <li class="nav_li"><a href="">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
-              <li class="nav_li"><a href="">Contact us</a></li>
-              <?php
+              <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
+        <?php
             }
           } else {
-            ?>
+        ?>
             <li class="nav_li"><a href="">Trip in Israel</a></li>
             <li class="nav_li"><a href="">Food & Drink</a></li>
             <li class="nav_li"><a href="">Activities</a></li>
-            <li class="nav_li"><a href="">Contact us</a></li>
-            <?php
+            <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
+        <?php
           }
         ?>
+        </ul>
+      </div>
 
+      <div class="div_user">
         <?php
         if (isset($_SESSION['Mail'])) {
           ?>
           <ul>
             <li class="dropdown2">
-              <img src="/IsTravel/img/128-1280585_user-icon-fa-fa-user-circle.png" class="profile_img">
+              <img src="/IsTravel/img/profile_logo.png" class="profile_img">
               <div class="dropdown-user">
                 <?php $q = $db->query("SELECT * FROM user WHERE email ='".$_SESSION['Mail']."' ");
                 $result = $q->fetch();
@@ -183,9 +229,8 @@ cursor: pointer;
       <?php
         }
       ?>
-
-    </ul>
-  	</nav><br><br>
-
+    </div>
+    </div>
+      <br><br>
   </body>
 </html>
