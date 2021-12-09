@@ -112,7 +112,7 @@
           <label for="end_date"><b>End Date</b></label><br>
         	  <input type="date" name="end_date" id="end_date" required><br>
     			<label for="place"><b>Place</b></label><br>
-          <select name="city"><br>
+          <select name="place"><br>
             <option value="Ashdod">Ashdod</option>
             <option value="Beer Sheva">Beer Sheva</option>
             <option value="Dead Sea">Dead Sea</option>
@@ -136,7 +136,7 @@
       </div>
 
 			<?php
-				require_once 'contact.php';
+				require_once 'add_trip.php';
 			?>
 
   </body>
