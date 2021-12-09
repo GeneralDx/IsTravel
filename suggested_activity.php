@@ -11,7 +11,7 @@
 
 						echo "The account was successfully updated !";
 						?>
-							<meta http-equiv="refresh" content="0.00001;URL=/IsTravel/suggested_activity_page.php">
+							<meta http-equiv="refresh" content="0.0001;URL=/IsTravel/suggested_activity_page.php">
 						<?php
 						return true;
 				} else {

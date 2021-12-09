@@ -7,13 +7,13 @@
 		<style>
 			table{
 				margin-top:30px;
-				margin-left:280px;
+				margin-left:200px;
 				margin-right:30px;
 				padding:10px;
 				text-align:center;
 				background-color: white;
 				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-				width:1000px;
+				width:1200px;
 				height: fit-content;
 				overflow:hidden;
 				border-radius: 4px;
@@ -39,16 +39,19 @@
 				max-width: 200px;
 			}
 			#activity_city{
-				max-width: 140px;
+				min-width: 80px;
+				max-width: 80px;
 			}
 			#activity_description{
 				max-width: 420px;
 			}
 			#activity_status{
-				max-width: 190px;
+				min-width: 70px;
+				max-width: 70px;
 			}
 			#activity_modify{
-				max-width: 50px;
+				min-width: 30px;
+				max-width: 30px;
 			}
 		</style>
 	</head>

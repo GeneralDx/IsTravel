@@ -7,13 +7,13 @@
 		<style>
 			table{
 				margin-top:30px;
-				margin-left:360px;
+				margin-left:200px;
 				margin-right:30px;
 				padding:10px;
 				text-align:center;
 				background-color: white;
 				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-				width:900px;
+				width:1200px;
 				height: fit-content;
 				overflow:hidden;
 				border-radius: 4px;
@@ -29,9 +29,30 @@
 				font-size :15px;
 			}
 
+			table td {
+			   overflow: hidden;
+			   text-overflow: ellipsis;
+			   white-space: nowrap;
+			}
+
       .activtiy_table{
         background-color:rgb(187, 187, 187);
       }
+
+			#activity_name{
+				max-width: 200px;
+			}
+			#activity_city{
+				min-width: 80px;
+				max-width: 80px;
+			}
+			#activity_description{
+				max-width: 420px;
+			}
+			#change_status{
+				min-width: 210px;
+				max-width: 210px;
+			}
 		</style>
 	</head>
 
@@ -57,10 +78,10 @@
 					foreach ($result as $res) {
             ?>
               <tr id="activtiy_table" class="activtiy_table">
-                <td>	<?php echo $res['activity_name'];	?>	</td>
-                <td>	<?php echo $res['city'];	?>	</td>
-                <td>	<?php echo $res['description'];	?>	</td>
-                <td>
+                <td id="activity_name">	<?php echo $res['activity_name'];	?>	</td>
+                <td id="activity_city">	<?php echo $res['city'];	?>	</td>
+                <td id="activity_description">	<?php echo $res['description'];	?>	</td>
+                <td id="change_status">
                   <form method="post">
                     <input type="text" name="activity_id" id="activity_id" value="<?php echo $res['Id']; ?>" style="display:none" required>
 
