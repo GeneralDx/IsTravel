@@ -102,7 +102,7 @@
         <p>Please fill this form to add a trip.</p>
         <hr>
 
-    		<form method="post">
+    		<form method="post" enctype="multipart/form-data">
     			<label for="title"><b>Title</b></label><br>
     		    <input type="text" placeholder="Enter Trip Title" name="title" id="title" required><br>
           <label for="image"><b>Image</b></label><br>
@@ -134,11 +134,7 @@
     				<input type="submit" name="formsend_trip" class="tripbtn" id="formsend_trip" value="Send">
     		</form>
       </div>
-
-			<?php
-				require_once 'add_trip.php';
-			?>
-
+			<?php require_once 'add_trip.php'; ?>
   </body>
 </html>
 

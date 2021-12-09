@@ -86,9 +86,9 @@
                     <input type="text" name="activity_id" id="activity_id" value="<?php echo $res['Id']; ?>" style="display:none" required>
 
                     <input type="radio" name="status" value="Accepted" id="Accepted" required>
-            				<label for="Accepted" id="acc">Accepted</label>
+            				<label for="Accepted" id="acc">Accept</label>
             				<input type="radio" name="status" value="Denied" id="Denied">
-            				<label for="Denied" id="deny">Denied</label>
+            				<label for="Denied" id="deny">Deny</label>
 
                     <input type="submit" name="formsend_change_status_activty" class="formsend_change_status_activty" id="formsend_change_status_activty" value="Change Status">
                   </form>

@@ -2,6 +2,15 @@
 
 	if(isset($_POST['formsend_trip'])) {
 		extract($_POST);
+
+		if(isset($_FILES['image'])){
+		    $tmpName = $_FILES['image']['tmp_name'];
+		    $image = $_FILES['image']['name'];
+		    $size = $_FILES['image']['size'];
+		    $error = $_FILES['image']['error'];
+				move_uploaded_file($tmpName, './img/'.$image);
+		}
+
 		class Add_Trip {
 			function add_tr($title, $image, $start_date, $end_date, $place, $price, $description, $db) {
         $q = $db->prepare("INSERT INTO trips(title, image, start_date, end_date, place, price, description) VALUES(:title, :image, :start_date, :end_date, :place, :price, :description)");
