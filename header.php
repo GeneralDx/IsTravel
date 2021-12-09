@@ -178,7 +178,7 @@
               <li class="nav_li"><a href="">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
-              <li class="nav_li"><a href="">Activities proposition</a></li>
+              <li class="nav_li"><a href="/IsTravel/suggested_activity_page.php">Activities proposition</a></li>
             <?php
               } else if ($_SESSION['Type'] == 'manager') {
             ?>

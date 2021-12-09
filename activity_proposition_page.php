@@ -102,21 +102,21 @@
         <hr>
 
     		<form method="post">
-    			<label for="activity_name"><b>Activity Activity Name</b></label><br>
+    			<label for="activity_name"><b>Activity Name</b></label><br>
     		    <input type="text" placeholder="Enter Activity Name" name="activity_name" id="activity_name" required><br>
 
 						<label for="place"><b>Place</b></label><br>
 							<select name="city"><br>
-								<option value="ashdod">Ashdod</option>
-								<option value="beer-sheva">Beer Sheva</option>
-								<option value="dead-sea">Dead Sea</option>
-								<option value="eilat">Eilat</option>
-								<option value="haifa">Haifa</option>
-								<option value="jerusalem">Jerusalem</option>
-								<option value="mitspe-ramon">Mitspe Ramon</option>
-								<option value="netanya">Netanya</option>
-								<option value="tel-aviv">Tel Aviv</option>
-								<option value="tiberiade">Tiberiade</option>
+								<option value="Ashdod">Ashdod</option>
+								<option value="Beer Sheva">Beer Sheva</option>
+								<option value="Dead Sea">Dead Sea</option>
+								<option value="Eilat">Eilat</option>
+								<option value="Haifa">Haifa</option>
+								<option value="Jerusalem">Jerusalem</option>
+								<option value="Mitspe Ramon">Mitspe Ramon</option>
+								<option value="Netanya">Netanya</option>
+								<option value="Tel Aviv">Tel Aviv</option>
+								<option value="Tiberias">Tiberias</option>
 							</select><br><br>
 
     		  <label for="description"><b>Message</b></label><br>
