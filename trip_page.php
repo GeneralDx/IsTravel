@@ -54,8 +54,11 @@
             background-color: #333;
         }
         p,b,h3{
-            color: black;
+            color: white;
             font-size: 20px;
+        }
+        p{
+            color: white;
         }
         
 
@@ -83,7 +86,7 @@
         </div>
         <div class="item">
         <img src="img/telaviv.jpg"
-            <h3><b>     Tel aviv</b> - $159</h3>
+            <h3><b>     Tel Aviv</b> - $159</h3>
             <p>With its hot artistic vibe, miles of picturesque city-side beaches, fascinating neighborhoods and a thriving nightlife, Tel Aviv seems to have it all. Yet Israel’s second largest—and no doubt hippest—city remains under-appreciated by most travelers. Thankfully, a series of hotel openings, city-wide renovations and a renewed appreciation for the city’s historic offerings has finally started to garner this glam metropolis the attention it so rightly deserves.</p>
             <button>View More</button>
 
@@ -98,18 +101,19 @@
         </div>
 
         <div class="item">
-            <img src="~/img/cappucino.png"
-            <h3><b>Café Cappucino</b> - $3</h3>
-            <p>
-                Dark, rich espresso awaits beneath a smooth, stretched layer of thick milk froth.
-                An alchemy of barista art and craftsmanship.
+        <img src="img/eingedi.jpg"
+            <h3><b>     Ein Gedi</b> - $147</h3>
+            <p>Ein Gedi, just aside the Dead Sea in the Judean Desert, is one of Israel’s premier hiking spots, featuring spectacular beauty, varied landscapes, and botanical gardens. There’s no doubt that Ein Gedi Nature Reserve is one of the most beautiful places in Israel. While it is located close to Jerusalem, it feels worlds away, Ein Gedi is, of course, one of the most popular escape spots for locals and tourists who take advantage of the reserve, botanical gardens, and the Dead Sea.
+
             </p>
             <button>View More</button>
         </div>
         <div class="item">
-            <img src="~/img/expresso.jpg"
-            <h3><b>Café Expresso</b> - $3</h3>
-            <p>Our signature creamy espresso roast with a rich flavor and caramelized sweetness is at the heart of everything we do.</p>
+            <img src="img/eingedi.jpg"
+            <h3><b>     Tiberias</b> - $147</h3>
+            <p>Ein Gedi, just aside the Dead Sea in the Judean Desert, is one of Israel’s premier hiking spots, featuring spectacular beauty, varied landscapes, and botanical gardens. There’s no doubt that Ein Gedi Nature Reserve is one of the most beautiful places in Israel. While it is located close to Jerusalem, it feels worlds away, Ein Gedi is, of course, one of the most popular escape spots for locals and tourists who take advantage of the reserve, botanical gardens, and the Dead Sea.
+
+            </p>
             <button>View More</button>
 
         </div>
