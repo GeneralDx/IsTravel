@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <title>Contact us</title>
     <style>
-<style>
         .items {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -17,16 +16,16 @@
         }
 
         .item img {
-            width: 100px;
-            height: 100px;
+            width: 100%;
+            height: 200px;
             object-fit: cover;
             cursor: pointer;
             transition: 0.2s ease;
         }
 
-            .item img:hover {
-                transform: scale(1.04);
-            }
+        .item img:hover {
+             transform: scale(1.04);
+        }
 
         .item h3 {
             padding: 5px;
@@ -54,6 +53,9 @@
         #btn {
             background-color: #333;
         }
+        p,b,h1,h3{
+            color: black;
+        }
   	</style>
   </head>
   <body>
@@ -62,9 +64,9 @@
     <h1>Trips Available now</h1>
     <div class="items">
         <div class="item">
-            <img src="~/img/cheesecake.jpg"
-            <h3><b>CheeseCake</b> - $6</h3>
-            <p>Sweet dessert made up of one or more layers. The main and thickest layer is a mixture of cream cheese, eggs and sugar</p>
+            <img src="img/jerusalem.jpg"
+            <h3><b>     Jerusalem</b> - $168</h3>
+            <p>Our Jerusalem Tours offer a variety of different experiences in the holiest city of them all. From one day introductory tours to religious-themed tours, packages tours, culinary tours, and more, the tours offered by Tourist Israel include something for everyone. We offer the most popular one day tours featuring the highlights of the Old and New parts of the city to Christian and Jewish focused tours following in the footsteps of the Biblical stories.</p>
             <button>View More</button>
 
         </div>
