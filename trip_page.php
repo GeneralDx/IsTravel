@@ -128,9 +128,11 @@ Jaffa’s flea market is a well-known attraction of the area. Here, the vendors 
 
         </div>
         <div class="item">
-            <img src="~/img/greentea.jpg"
-            <h3><b>Green Tea</b> - $2.80</h3>
-            <p>Green tea with its natural flavor. Keep it simple.</p>
+        <img src="img/ashdod.jpg"
+            <h3><b>     Ashdod - $125 </b></h3>
+            <p>Ashdod is the sixth-largest city and the largest port in Israel accounting for 60% of the country's imported goods. Ashdod is located in the Southern District of the country, on the Mediterranean coast where it is situated between Tel Aviv to the north and Ashkelon. The city is also an important regional industrial center.Modern Ashdod covers the territory of two ancient twin towns, one inland and one on the coast, which were for most of their history two separate entities, connected though by close ties with each other. 
+
+            </p>
             <button>View More</button>
 
         </div>
