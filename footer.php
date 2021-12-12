@@ -19,10 +19,9 @@
             left: 0px;
             right: 0px;
             margin-bottom: 0px;
-		}
-		p{
 			color: black;
 		}
+		
 	</style>
  </head>
  <body>
