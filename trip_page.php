@@ -136,6 +136,15 @@ Jaffa’s flea market is a well-known attraction of the area. Here, the vendors 
             <button>View More</button>
 
         </div>
+        <div class="item">
+        <img src="img/nahariya.jpg"
+            <h3><b>     Nahariya - $122 </b></h3>
+            <p>Nahariya is Israel’s northernmost coastal city, a last testament to the seaside settlements that reach up along the sunny Mediterranean shoreline. Being the end of the train-line and just a few minutes from Rosh HaNikra, with its famous white sandstone grottos, tourists often find themselves Nahariya, a vibrant, little city. With a lively nucleus, comprised of a wide boulevard, divided by a river and lined with shops, restaurants, bars and hotels, and the seafront bars and restaurants, Nahariya provides sun-lovers with an idyllic vacation spot.
+
+            </p>
+            <button>View More</button>
+
+        </div>
 
     
 </html>
