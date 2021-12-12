@@ -53,13 +53,16 @@
         #btn {
             background-color: #333;
         }
-        p,b,h1,h3{
+        p,b,h3{
             color: black;
+            font-size: 20px;
         }
+        
+
   	</style>
   </head>
   <body>
-  <br /><br /><br /><br />
+  <br />
     
     <h1>Trips Available now</h1>
     <div class="items">
@@ -75,7 +78,7 @@
             <h3><b>     Haifa</b> - $134</h3>
             <p>Modern Haifa is a bustling port town, but unlike many industry-focused cities, its landscape of steep cliffs rolling down to the shore gives it a beautiful setting.
             For travelers who want a base with both good access to the sights of the north and plentiful city buzz, with a thriving café and dining scene, this is one of the best places to visit.
-            Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature. These cascading terraces of manicured lawns are Haifa's number one tourist attraction.</p>
+            Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature.</p>
             <button>View More</button>
         </div>
         <div class="item">
@@ -86,11 +89,11 @@
 
         </div>
         <div class="item">
-            <img src="~/img/americano.jpg"
-            <h3><b>Café Americano</b> - $3.50 </h3>
-            <p>
-                Shot of espresso topped with hot water create a light coating of creme that culminates in this wonderfully rich cup with depth and undertone.
-            </p>
+        <img src="img/eilat.jpg"
+            <h3><b>     Eilat</b> - $128</h3>
+            <p>Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan.
+
+</p>
             <button>View More</button>
         </div>
 
