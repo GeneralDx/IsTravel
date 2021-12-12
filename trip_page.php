@@ -118,9 +118,12 @@ Flowing with natural hot springs, brimming with Christian and Jewish holy sites 
         </div>
 
         <div class="item">
-            <img src="~/img/croissant.jpg"
-            <h3><b>Croissant</b> - $3</h3>
-            <p>Delicious Croissant made with butter.</p>
+        <img src="img/jaffa.jpg"
+            <h3><b>     Jaffa - $118 </b></h3>
+            <p>Jaffa (also known as Yafo) is the ancient port city out of which Tel Aviv has now grown. In recent years, like much of South Tel Aviv, this area has been regenerated. The old narrow streets and courtyards are now another highly desirable part of Tel Aviv’s urban tapestry.
+Jaffa’s flea market is a well-known attraction of the area. Here, the vendors sell a diverse range of interesting and unique products from Turkish carpets to original art. Meanwhile, the narrow passageways and ancient buildings in the Old City are worlds away from modern Tel Aviv.
+
+            </p>
             <button>View More</button>
 
         </div>
