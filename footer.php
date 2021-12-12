@@ -4,21 +4,28 @@
 	<meta charset="utf-8">
 	<style>
 		footer {
-        background-color: blue;
-        color: white;
+        background-color: black;
+        color: black;
 				margin-top: 4px;
 				padding: 6px;
         text-align: center;
+
 			}
 		#copy{
-			color: white;
+			text-align: center;
+            position: fixed;
+            height: 50px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            margin-bottom: 0px;
 		}
 	</style>
  </head>
  <body>
 	<footer>
 		<div class="Copyright">
-			<p id="copy">Copyright &copy; IsTravel - 2021 -	All rights reserved
+			<p id="copy">Copyright &copy; 2021 - IsTravel. All rights reserved. <a href="/IsTravel/contact_page.php">Contact us.</a>
 			</p>
 		</div>
 	</footer>
