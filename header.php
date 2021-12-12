@@ -175,7 +175,7 @@
           if (isset($_SESSION['Type'])) {
             if ($_SESSION['Type'] == 'admin') {
               ?>
-              <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="/IsTravel/add_trip_page.php">Add a Trip</a></li>
@@ -183,7 +183,7 @@
             <?php
               } else if ($_SESSION['Type'] == 'manager') {
             ?>
-              <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="/IsTravel/activity_proposition_page.php">Propose an activity</a></li>
@@ -191,7 +191,7 @@
           <?php
             } else {
           ?>
-              <li class="nav_li"><a href="">Trip in Israel</a></li>
+              <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
               <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
@@ -199,7 +199,7 @@
             }
           } else {
         ?>
-            <li class="nav_li"><a href="">Trip in Israel</a></li>
+            <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
             <li class="nav_li"><a href="">Food & Drink</a></li>
             <li class="nav_li"><a href="">Activities</a></li>
             <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
