@@ -71,9 +71,11 @@
 
         </div>
         <div class="item">
-            <img src="~/img/macchiato.jpg"
-            <h3><b>Café Macchiato</b> - $4</h3>
-            <p>Freshly steamed milk with a vanilla syrup marked with espresso and topped with a drizzle of caramel for an oh-so-sweet finish.</p>
+        <img src="img/haifa.jpg"
+            <h3><b>     Haifa</b> - $134</h3>
+            <p>Modern Haifa is a bustling port town, but unlike many industry-focused cities, its landscape of steep cliffs rolling down to the shore gives it a beautiful setting.
+            For travelers who want a base with both good access to the sights of the north and plentiful city buzz, with a thriving café and dining scene, this is one of the best places to visit.
+            Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature. These cascading terraces of manicured lawns are Haifa's number one tourist attraction.</p>
             <button>View More</button>
         </div>
         <div class="item">
