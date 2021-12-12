@@ -50,17 +50,17 @@
 			color: blue;
 		}
 		.pay{
-			background: blue;
-			color:white;
+			background-color: blue;
+	  		color: white;
+	  		padding: 16px 20px;
+	  		margin: 8px 0;
+	  		border: none;
+	  		cursor: pointer;
+	  		width: 50%;
+	  		opacity: 0.9;
 
 		}
 		
-		.box_order{
-			float:center-right;
-		}
-		.break{
-			margin-top: 10px;
-		}
 
 
 		a{
@@ -92,7 +92,7 @@
 							<input type="text" name="last-name"placeholder="Enter Last Name"><br>
 							
 							<label class="age"><b>Age:</b></label><br>
-							<input type="date" ><br>
+							<input type="text" placeholder="DD/MM/YYYY" ><br>
 														
 							<label class="name"><b>City:</b></label><br>
 							<input type="text" placeholder="Enter City" name="city"/><br>
@@ -101,7 +101,7 @@
 							<input type="number"placeholder="Enter Postal Code"><br>
 							
 							<label class="name"><b>E-mail</b></label><br>
-							<input type="email" placeholder="Enter Email" name="email"/><br>
+							<input type="text" placeholder="Enter Email" name="email"/><br>
 							
 
 							<label class="name"><b>Phone Number</b></label><br>
@@ -128,10 +128,10 @@
 							<input type="text" name="last-name"placeholder="Enter Last Name"><br>
 							
 							<label class="age"><b>Age:</b></label><br>
-							<input type="date" ><br>
+							<input type="text"placeholder="DD/MM/YYYY" ><br>
 														
 							<label class="name"><b>E-mail</b></label><br>
-							<input type="email" placeholder="Enter Email" name="email"/><br>
+							<input type="text" placeholder="Enter Email" name="email"/><br>
 							
 
 							<label class="name"><b>Phone Number</b></label><br>
@@ -149,24 +149,7 @@
 						
 					</div>
 				</div >
-				<div class="break"></div>
-				
-				<h2> Payment</h2>
-				<table class="box_order">
-					<thead>
-						<h2 class="cart">Cart</h2>
-					</thead>
-					<tbody>
-						<input type="text" placeholder="Card number" name="card"><br>
-						<input type="text" placeholder="CVV"name="card"><br>
-
-					<label class="expiration"><b>Expiration date</b></label><br>
-					<input type="number" placeholder="MM/YYYY" name="card"><br>
-			
-
-
-				</table>
-				
+								
 				<input type="submit" name="pay" class="pay" id="pay" value="PAY">
 			</div>
 	</body>
