@@ -79,9 +79,9 @@
             <button>View More</button>
         </div>
         <div class="item">
-            <img src="~/img/hotchoco.jpg"
-            <h3><b>Hot Chocolate</b> - $3.80</h3>
-            <p>Steamed milk and mocha sauce topped with sweet whipped cream and a chocolate drizzle. A timeless classic made to soften your spirits.</p>
+        <img src="img/telaviv.jpg"
+            <h3><b>     Tel aviv</b> - $159</h3>
+            <p>With its hot artistic vibe, miles of picturesque city-side beaches, fascinating neighborhoods and a thriving nightlife, Tel Aviv seems to have it all. Yet Israel’s second largest—and no doubt hippest—city remains under-appreciated by most travelers. Thankfully, a series of hotel openings, city-wide renovations and a renewed appreciation for the city’s historic offerings has finally started to garner this glam metropolis the attention it so rightly deserves.</p>
             <button>View More</button>
 
         </div>
