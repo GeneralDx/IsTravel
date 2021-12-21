@@ -35,7 +35,7 @@
 
       .nav_li a{
         display: block;
-        color: blue;
+        color: #0148ba;
         text-align: center;
         padding: 27.5px 25px;
         text-decoration: none;

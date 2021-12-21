@@ -26,6 +26,15 @@ input[type=text] {
   background: #f1f1f1;
 }
 
+select{
+	width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
 textarea{
   width: 50%;
   padding: 15px;
@@ -38,11 +47,9 @@ textarea{
 }
 
 input[type=text]:focus {
-  background-color: blue;
   outline: none;
 }
 textarea:focus{
-  background-color: blue;
   outline: none;
 }
 
@@ -52,10 +59,10 @@ hr {
   margin-bottom: 25px;
 }
 h1,p,b{
-  color: blue;
+  color: #0148ba;
 }
 #c,#m{
-  color: blue;
+  color: #0148ba;
 }
 #si{
   font-size: 30px;
@@ -63,14 +70,14 @@ h1,p,b{
 }
 #su{
   text-decoration: none;
-  color: blue;
+  color: #0148ba;
 }
 
 
 
 /* Set a style for the submit/register button */
 .formsend_modify_activty {
-  background-color: blue;
+  background-color: #0148ba;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -91,7 +98,7 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .formsend_modify_activty {
-  background-color: blue;
+  background-color: #0148ba;
   text-align: center;
 }
   </style>

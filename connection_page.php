@@ -37,10 +37,10 @@ hr {
   margin-bottom: 25px;
 }
 h1,p,b{
-	color: blue;
+	color: #0148ba;
 }
 #c,#m{
-	color: blue;
+	color: #0148ba;
 }
 #si{
 	font-size: 30px;
@@ -48,14 +48,14 @@ h1,p,b{
 }
 #su{
 	text-decoration: none;
-	color: blue;
+	color: #0148ba;
 }
 
 
 
 /* Set a style for the submit/register button */
 .formsend_connection {
-    background-color: blue;
+    background-color: #0148ba;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;

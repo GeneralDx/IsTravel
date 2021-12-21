@@ -36,17 +36,17 @@ hr {
   margin-bottom: 25px;
 }
 h1,p,b{
-	color: blue;
+	color: #0148ba;
 }
 #c,#m, #a{
-	color: blue;
+	color: #0148ba;
 }
 
 
 
 /* Set a style for the submit/register button */
 .modificationbtn {
-  background-color: blue;
+  background-color: #0148ba;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
