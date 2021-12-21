@@ -3,17 +3,18 @@
   <head>
 	<meta charset="utf-8">
 	<style>
-		footer {
+		/* footer {
         background-color: black;
         color: black;
 				margin-top: 4px;
 				padding: 6px;
         text-align: center;
 
-			}
+			} */
 		#copy{
 			text-align: center;
-            position: fixed;
+            /* position: fixed; */
+            padding-top: 150px;
             height: 50px;
             bottom: 0px;
             left: 0px;
@@ -21,7 +22,7 @@
             margin-bottom: 0px;
 			color: black;
 		}
-		
+
 	</style>
  </head>
  <body>
