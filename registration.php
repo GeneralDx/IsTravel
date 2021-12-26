@@ -1,7 +1,7 @@
 <?php
 namespace regist_test;
 
-class Registration {
+class registration {
 	function register($first_name, $last_name, $email, $password, $cpassword, $type, $db) {
 		if(!empty($first_name) && !empty($last_name) && !empty($email) && !empty($password) && !empty($cpassword)) {
 			if($password == $cpassword) {
@@ -47,7 +47,7 @@ class Registration {
 	if(isset($_POST['formsend_registration'])) {
 		extract($_POST);
 
-		$registration = new Registration();
+		$registration = new registration();
 		$registration->register($first_name, $last_name, $email, $password, $cpassword, $type, $db);
 	}
 

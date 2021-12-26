@@ -12,7 +12,13 @@
     ],
     "autoload": {
     	"psr-4": {
-    		"connec_test\\": ""
+    		"connec_test\\": "",
+		"regist_test\\": "",
+		"add_trip_test\\": "",
+		"contact_test\\": "",
+		"modify_activity_test\\": "",
+		"profil_test\\": "",
+		"suggested_activity_test\\": ""
     	}
     },
 

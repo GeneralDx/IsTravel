@@ -9,6 +9,8 @@
 
       $this->assertTrue(\connec_test\connection::connec('sabagsh@ac.sce.ac.il', 'Azertyuio01234567', $db), "Not connected");
       $this->assertFalse(\connec_test\connection::connec('saba@ac.sce.ac.il', 'Azertyuio012', $db), "Connected");
+      $this->assertFalse(\connec_test\connection::connec('saba@ac.sce.ac.il', '', $db), "Connected");
+      $this->assertFalse(\connec_test\connection::connec('saba@ac.sce.ac', 'Azertyuio01234567', $db), "Connected");
     }
   }
 
