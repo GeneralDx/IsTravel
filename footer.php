@@ -14,7 +14,7 @@
 		#copy{
 			text-align: center;
             /* position: fixed; */
-            padding-top: 150px;
+            /* padding-top: 150px; */
             height: 50px;
             bottom: 0px;
             left: 0px;

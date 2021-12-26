@@ -9,26 +9,27 @@
 	<title>Cart</title>
 
 	<style>
-		* {box-sizing: border-box}
-
-		.cart{
-			padding: 16px;
+		div.resa{
+			width: 100%;
+			display: flex;
+			align-items: flex-start;
+    	justify-content: space-between;
 		}
 
 		div.client{
-			float:left;
-			width: 49%;
+			float: left;
+			width: 48%;
 			background: #91D7FF;
 		}
 
 		div.order{
 			float: right;
-			width: 49%;
+			width: 48%;
 			background: #91D7FF;
 		}
 
 		input[type=text],[type=number], [type=file], [type=date], [type=tel]{
-			width: 98%;
+				width: 93%;
   			padding: 15px;
   			margin: 5px 0 22px 0;
   			display: block;
@@ -39,7 +40,7 @@
 				FONT-FAMILY: Arial;
 		}
 		input[type=tel]{
-			width: 85%;
+			width: 80%;
   			padding: 15px;
   			margin: 5px 0 22px 0;
 				display: inline-block;
@@ -53,7 +54,7 @@
 		}
 
 		select{
-			width: 12%;
+				width: 12%;
   			padding: 15px;
   			margin: 5px 0 22px 0;
 				display: inline-block;
@@ -63,16 +64,13 @@
 		}
 
 		hr {
- 			border: 1px solid #f1f1f1;
+ 			border: 1px
+			solid #f1f1f1;
   		margin-bottom: 25px;
 		}
 
-		h1,p,b,h2{
+		h1, h2, b, p{
 			color: #0148ba;
-		}
-
-		b{
-			margin-left: 7px;
 		}
 
 		.paybtn {
@@ -95,6 +93,7 @@
 		a{
 			color:dodgerblue;
 		}
+
 	</style>
 </head>
 <body>
@@ -103,6 +102,7 @@
 			<p>Please fill this form to move to payment.</p>
 			<hr>
 				<h2>Reservation Details</h2>
+				<div class="resa">
 					<div class="client">
 
 						<h2>Client</h2>
@@ -119,7 +119,7 @@
 							<input type="date" name="birthdate" id="birthdate" required><br>
 							<!-- CHECK MAJOR -->
 
-							<label class="address"><b>City</b></label><br>
+							<label class="address"><b>Address</b></label><br>
 							<input type="text" placeholder="Enter Address" name="address" id="address" required><br>
 
 							<label class="city"><b>City</b></label><br>
@@ -154,9 +154,6 @@
 						<label class="passport"><b>Passport Number</b></label><br>
 						<input type="text" placeholder="12AB34567" name="passport" id="passport" required minlength="9" maxlength="9"><br>
 
-						<label for="image"><b>Passport Photo</b></label><br>
-						<input type="file" name="image" id="image" accept="image/png, image/jpeg, image/jpg" required><br>
-
 						<label class="email"><b>E-mail</b></label><br>
 						<input type="text" placeholder="Enter Email" name="email" id="email" required><br>
 
@@ -174,6 +171,7 @@
 						<p>TU VAS PAYER CHER</p>
 						<input type="submit" name="formsend_pay" class="paybtn" id="formsend_pay" value="Move to Payment">
 					</div>
+				</div>
 	</body>
 </html>
 
