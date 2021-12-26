@@ -7,6 +7,13 @@
     <meta charset="utf-8">
     <title></title>
     <style>
+
+		div.trips{
+			width: 100%;
+			display: flex;
+			align-items: flex-start;
+		}
+
       h1, h2, p{
         color:#0148ba;
       }
@@ -16,12 +23,14 @@
       }
       .trip{
         float: left;
-        width: 30%;
+        width: 33%;
       }
     </style>
   </head>
 
   <body>
+		<div class="trips">
+
     <?php
     $q = $db->prepare("SELECT * FROM trips WHERE place = :place");
     $q->execute(['place'=>'Eilat']);
@@ -42,6 +51,7 @@
       <?php
     }
     ?>
+		</div>
 
   </body>
 </html>
