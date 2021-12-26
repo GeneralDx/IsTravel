@@ -123,7 +123,6 @@
         	  <input type="date" name="end_date" id="end_date" required><br>
     			<label for="place"><b>Place</b></label><br>
           <select name="place"><br>
-            <option value="Ashdod">Ashdod</option>
             <option value="Beer Sheva">Beer Sheva</option>
             <option value="Dead Sea">Dead Sea</option>
             <option value="Eilat">Eilat</option>

@@ -114,7 +114,6 @@
 
 						<label for="city"><b>Place</b></label><br>
 							<select name="city"><br>
-								<option value="Ashdod">Ashdod</option>
 								<option value="Beer Sheva">Beer Sheva</option>
 								<option value="Dead Sea">Dead Sea</option>
 								<option value="Eilat">Eilat</option>

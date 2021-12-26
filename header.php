@@ -69,6 +69,11 @@
         color: #0148ba;
       }
 
+      #cart:hover{
+        background-color: white;
+        color: #0148ba;
+      }
+
       #sign_in:hover{
         background-color: white;
         color: #0148ba;
@@ -218,7 +223,8 @@
               <img src="/IsTravel/img/profile_logo.png" class="profile_img">
               <div class="dropdown-user">
                   <p id="name"><?php echo $_SESSION['First_name']." ".$_SESSION['Last_name'];?></p>
-                <a href="/IsTravel/profil_page.php" id="profile_settings">Profile</a>
+                  <a href="/IsTravel/profil_page.php" id="profile_settings">Profile</a>
+                  <a href="/IsTravel/cart_page.php" id="cart">Cart</a>
 
                 <?php
                   if ($_SESSION['Type'] == 'manager'){
