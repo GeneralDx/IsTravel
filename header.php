@@ -94,7 +94,7 @@
         width: 60px;
         height: 60px;
         padding: 7.5px;
-        margin-right: 25px;
+        margin-right: 10px;
         margin-top: 20px;
       }
 
@@ -181,7 +181,6 @@
             if ($_SESSION['Type'] == 'admin') {
               ?>
               <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
-              <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="/IsTravel/add_trip_page.php">Add a Trip</a></li>
               <li class="nav_li"><a href="/IsTravel/suggested_activity_page.php">Activities proposition</a></li>
@@ -189,7 +188,6 @@
               } else if ($_SESSION['Type'] == 'manager') {
             ?>
               <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
-              <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="/IsTravel/activity_proposition_page.php">Propose an activity</a></li>
               <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
@@ -197,7 +195,6 @@
             } else {
           ?>
               <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
-              <li class="nav_li"><a href="">Food & Drink</a></li>
               <li class="nav_li"><a href="">Activities</a></li>
               <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
         <?php
@@ -205,7 +202,6 @@
           } else {
         ?>
             <li class="nav_li"><a href="/IsTravel/trip_page.php">Trip in Israel</a></li>
-            <li class="nav_li"><a href="">Food & Drink</a></li>
             <li class="nav_li"><a href="">Activities</a></li>
             <li class="nav_li"><a href="/IsTravel/contact_page.php">Contact us</a></li>
         <?php

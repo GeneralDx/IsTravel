@@ -20,7 +20,7 @@
             left: 0px;
             right: 0px;
             margin-bottom: 0px;
-			color: black;
+			color: #0148ba;
 		}
 
 	</style>
@@ -28,7 +28,7 @@
  <body>
 	<footer>
 		<div class="Copyright">
-			<p id="copy">Copyright &copy; 2021 - IsTravel. All rights reserved. <a href="/IsTravel/contact_page.php">Contact us.</a>
+			<p id="copy">Copyright &copy; 2021 - IsTravel | All rights reserved. <a href="/IsTravel/contact_page.php">Contact us.</a>
 			</p>
 		</div>
 	</footer>

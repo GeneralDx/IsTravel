@@ -7,13 +7,14 @@
 		<style>
 			table{
 				margin-top:30px;
-				margin-left:200px;
-				margin-right:30px;
+				margin-left:10%;
+				margin-right:10%;
+				margin-bottom: 30px;
 				padding:10px;
+				width:80%;
 				text-align:center;
 				background-color: white;
 				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-				width:1200px;
 				height: fit-content;
 				overflow:hidden;
 				border-radius: 4px;

@@ -8,23 +8,60 @@
     <title>Trip</title>
     <style>
 
-		div.trips{
-			width: 100%;
-			display: flex;
-			align-items: flex-start;
+		.trips{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			padding: 30px 20px;
+			grid-column-gap: 20px;
+			grid-row-gap: 30px;
 		}
 
       h1, h2, p{
         color:#0148ba;
       }
-      img{
-        width: 90px;
-        height: 90px;
+      .trip img{
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+				cursor: pointer;
+				transition: 0.2s ease;
+
       }
+
+			.trip:hover {
+					 transform: scale(1.04);
+			}
+
+			.trip h1 {
+					padding: 5px;
+					text-align: center;
+					font-weight: bold;
+					text-decoration: underline #0148ba;
+			}
+
+			.formsend_select_trip{
+				padding: 5px 30px;
+				border: none;
+				outline: none;
+				background-color: #0148ba;
+				color: white;
+				cursor: pointer;
+				border-radius: 4px;
+				font-size: 20px;
+				display: block;
+				margin: auto;
+				transition: 0.2s all;
+				margin-bottom: 10px;
+			}
+
+			.formsend_select_trip:hover{
+				transform: scale(1.08);
+			}
+
       .trip{
-        float: left;
-        width: 33%;
-      }
+				background: #91D7FF;
+			}
+
     </style>
   </head>
 
@@ -46,13 +83,15 @@
 	      ?>
 	      <div class="trip">
 	        <div class="img">
-	            <?php
-	            echo '<img src="/IsTravel/img/'.$res['image'].'" style="width:200px;height:200px">';
-	            ?>
+						<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
 	        </div>
 	        <h1> <?php echo $res['title']; ?> </h1>
 	        <h2> Place: <?php echo $res['place']; ?> </h2>
 	        <h2> Price: <?php echo $res['price']; ?>₪ </h2>
+					<form class="trip_details" method="post">
+						<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
+						<input type="submit" name="formsend_select_trip" id="formsend_select_trip" class="formsend_select_trip" value="View more">
+					</form>
 	      </div>
 	      <?php
 	    }

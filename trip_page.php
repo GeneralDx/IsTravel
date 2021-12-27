@@ -47,7 +47,7 @@
             border-radius: 4px;
             font-size: 20px;
             display: block;
-            margin: 0 auto;
+            margin: auto;
             transition: 0.2s all;
 						margin-bottom: 10px;
         }
