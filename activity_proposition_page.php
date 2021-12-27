@@ -16,7 +16,7 @@
   }
 
   /* Full-width input fields */
-  input[type=text] {
+  input[type=text], [type=file] {
     width: 50%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -108,9 +108,11 @@
         <p>Please fill this form to propose an activity.</p>
         <hr>
 
-    		<form method="post">
+    		<form method="post"  enctype="multipart/form-data">
     			<label for="activity_name"><b>Activity Name</b></label><br>
     		    <input type="text" placeholder="Enter Activity Name" name="activity_name" id="activity_name" required><br>
+						<label for="image"><b>Image</b></label><br>
+	      		  <input type="file" name="image" id="image" accept="image/png, image/jpeg, image/jpg" required><br>
 
 						<label for="city"><b>Place</b></label><br>
 							<select name="city"><br>
