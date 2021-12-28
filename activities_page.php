@@ -63,6 +63,25 @@
 				background: #91D7FF;
 			}
 
+			.formsend_select_trip{
+				padding: 5px 30px;
+				border: none;
+				outline: none;
+				background-color: #0148ba;
+				color: white;
+				cursor: pointer;
+				border-radius: 4px;
+				font-size: 20px;
+				display: block;
+				margin: auto;
+				transition: 0.2s all;
+				margin-bottom: 10px;
+			}
+
+			.formsend_select_trip:hover{
+				transform: scale(1.08);
+			}
+
     </style>
   </head>
 
@@ -89,7 +108,10 @@
 	        </div>
 	        <h1> <?php echo $res['activity_name']; ?> </h1>
 	        <h2> Place: <?php echo $res['city']; ?> </h2>
-	        <h2> Description: <?php echo $res['description']; ?></h2>
+					<form class="trip_details" method="post" action="activity_details_page.php">
+						<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
+						<input type="submit" name="formsend_select_activity" id="formsend_select_activity" class="formsend_select_activity" value="View more">
+					</form>
 	      </div>
 	      <?php
 	    }
