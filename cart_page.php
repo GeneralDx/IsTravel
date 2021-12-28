@@ -7,22 +7,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>Cart</title>
-
 	<style>
-		div.resa{
+		.resa{
 			width: 100%;
 			display: flex;
 			align-items: flex-start;
     	justify-content: space-between;
 		}
 
-		div.client{
+		.client{
 			float: left;
 			width: 48%;
 			background: #91D7FF;
 		}
 
-		div.order{
+		.order{
 			float: right;
 			width: 48%;
 			background: #91D7FF;
@@ -167,7 +166,7 @@
 
 					</div>
 					<div class="order">
-						<h2>You Order</h2>
+						<h2>Your Order</h2>
 						<p>TU VAS PAYER CHER</p>
 						<input type="submit" name="formsend_pay" class="paybtn" id="formsend_pay" value="Move to Payment">
 					</div>

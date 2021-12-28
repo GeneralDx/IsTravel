@@ -88,7 +88,7 @@
 	        <h1> <?php echo $res['title']; ?> </h1>
 	        <h2> Place: <?php echo $res['place']; ?> </h2>
 	        <h2> Price: <?php echo $res['price']; ?>₪ </h2>
-					<form class="trip_details" method="post">
+					<form class="trip_details" method="post" action="trip_details_page.php">
 						<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
 						<input type="submit" name="formsend_select_trip" id="formsend_select_trip" class="formsend_select_trip" value="View more">
 					</form>
