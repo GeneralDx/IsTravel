@@ -20,7 +20,7 @@
         color:#0148ba;
       }
 
-      .trip img{
+      .activity img{
 				width: 100%;
 				height: 200px;
 				object-fit: cover;
