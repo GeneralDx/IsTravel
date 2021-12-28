@@ -17,13 +17,14 @@
 }
 
 /* Full-width input fields */
-input[type=text] {
+input[type=text], [type=date] {
   width: 50%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  font-family: Arial;
 }
 
 select{
@@ -76,7 +77,7 @@ h1,p,b{
 
 
 /* Set a style for the submit/register button */
-.formsend_modify_activty {
+.formsend_modify_trip {
   background-color: #0148ba;
   color: white;
   padding: 16px 20px;
@@ -87,7 +88,7 @@ h1,p,b{
   opacity: 0.9;
 }
 
-.formsend_modify_activty:hover {
+.formsend_modify_trip:hover {
   opacity:1;
 }
 
@@ -97,7 +98,7 @@ a {
 }
 
 /* Set a grey background color and center the text of the "sign in" section */
-.formsend_modify_activty {
+.formsend_modify_trip {
   background-color: #0148ba;
   text-align: center;
 }
@@ -105,33 +106,36 @@ a {
 </head>
 <body>
 <div class="container">
-    <h1>Activity</h1>
+    <h1>Trip</h1>
     <p>Please modify the details</p>
     <hr>
 
 		<form method="post">
       <?php
-        if(isset($_POST['formsend_to_modify_activty'])) {
+        if(isset($_POST['formsend_to_modify_trip'])) {
           extract($_POST);
 
-          $q = $db->prepare("SELECT * FROM activities WHERE Id=:Id");
+          $q = $db->prepare("SELECT * FROM trips WHERE Id=:Id");
 					$q->execute([
-						'Id' => $activity_id
+						'Id' => $trip_id
 					]);
 					$result = $q->fetch();
       ?>
-      <input type="text" name="activity_id" id="activity_id" value="<?php echo $activity_id; ?>" style="display:none" required>
+      <input type="text" name="trip_id" id="trip_id" value="<?php echo $trip_id; ?>" style="display:none" required>
 
       <?php
         }
       ?>
 
-      <label for="activity_name"><b>Activity Name</b></label><br>
-        <input type="text" value="<?php echo $result['activity_name']; ?>" name="activity_name" id="activity_name" required><br>
-
-        <label for="city"><b>Place</b></label><br>
-          <select name="city"><br>
-            <option value="<?php echo $result['city']; ?>"><?php echo $result['city']; ?></option>
+      <label for="title"><b>Trip Name</b></label><br>
+        <input type="text" value="<?php echo $result['title']; ?>" name="title" id="title" required><br>
+        <label for="start_date"><b>Start Date</b></label><br>
+          <input type="date" name="start_date" id="start_date" value="<?php echo $result['start_date'] ?>" required><br>
+        <label for="end_date"><b>End Date</b></label><br>
+          <input type="date" name="end_date" id="end_date" value="<?php echo $result['end_date'] ?>" required><br>
+        <label for="place"><b>Place</b></label><br>
+          <select name="place"><br>
+            <option value="<?php echo $result['place']; ?>"><?php echo $result['place']; ?></option>
             <option value="Beer Sheva">Beer Sheva</option>
             <option value="Dead Sea">Dead Sea</option>
             <option value="Eilat">Eilat</option>
@@ -142,17 +146,19 @@ a {
             <option value="Tel Aviv">Tel Aviv</option>
             <option value="Tiberias">Tiberias</option>
           </select><br><br>
-
+          <label for="price"><b>Price</b></label><br>
+            <input type="text" placeholder="Enter Trip Price" name="price" id="price" value="<?php echo $result['price'] ?>" required>
+            <span>  <?php echo "₪" ?></span><br>
       <label for="description"><b>Message</b></label><br>
         <textarea name="description" id="description" cols="40" rows="5" required><?php echo $result['description']; ?></textarea>
     <hr>
 
-        <input type="submit" name="formsend_modify_activty" class="formsend_modify_activty" id="formsend_modify_activty" value="Modify">
+        <input type="submit" name="formsend_modify_trip" class="formsend_modify_trip" id="formsend_modify_trip" value="Modify">
 		</form>
   </div>
 
   <?php
-    require_once 'modify_activity.php'
+    require_once 'modify_trip.php';
   ?>
 
 </body>

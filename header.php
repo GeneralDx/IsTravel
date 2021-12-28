@@ -226,6 +226,10 @@
                     ?>
                       <a href="/IsTravel/my_activities_page.php" id="proposition_activity">My activities</a>
                     <?php
+                  } elseif ($_SESSION['Type'] == 'admin') {
+                    ?>
+                      <a href="/IsTravel/select_modify_trip_page.php" id="proposition_activity">Modify trip</a>
+                    <?php
                   }
                   require_once 'deconnection.php';
                 ?>

@@ -20,9 +20,8 @@
 
 	if(isset($_POST['formsend_modify_activty'])) {
 		extract($_POST);
-    $email = $_SESSION['Mail'];
 
 		$modify_activity = new modify_activity();
-		$modify_activity->modify_act($activity_id, $_SESSION['Mail'], $activity_name, $city, $description, $db);
+		$modify_activity->modify_act($activity_id, $_SESSION['Mail'], $activity_name, $city, $description, $db));
 	}
 ?>
