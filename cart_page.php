@@ -167,8 +167,53 @@
 					</div>
 					<div class="order">
 						<h2>Your Order</h2>
-						<p>TU VAS PAYER CHER</p>
-						<input type="submit" name="formsend_pay" class="paybtn" id="formsend_pay" value="Move to Payment">
+
+						<?php
+							$sum = 0;
+							$a = $db->prepare("SELECT * FROM user WHERE email = :email");
+							$a->execute([
+								'email' => $_SESSION['Mail']
+							]);
+
+							$answer = $a->fetch();
+
+							$q = $db->prepare("SELECT * FROM cart WHERE Id_user = :Id_user");
+							$q->execute([
+								'Id_user' => $answer['Id']
+							]);
+							$result = $q->fetchall();
+
+							foreach ($result as $res) {
+								$que = $db->prepare("SELECT * FROM trips WHERE Id = :Id");
+								$que->execute([
+									'Id' => $res['Id_trip']
+								]);
+
+								$query = $que->fetch();
+
+								$sum = $sum + $query['price'];
+								?>
+									<span><?php echo $query['title']; ?> - </span>
+									<span><?php echo $query['price']; ?>₪</span><br>
+		            <?php
+							}
+		        ?>
+						<br>
+						<hr>
+						<br>
+						<span>Sum of the order: <?php echo $sum; ?>₪</span>
+						<br>
+						<hr>
+						<br>
+
+						<form method="post">
+							<input type="submit" name="formsend_pay" class="paybtn" id="formsend_pay" value="Move to Payment">
+						</form>
+
+						<?php
+							require_once 'cart.php';
+						?>
+
 					</div>
 				</div>
 	</body>

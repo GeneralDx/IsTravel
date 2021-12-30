@@ -7,6 +7,18 @@
     <?php
       if (isset($_POST['deconnection']))
       {
+        $a = $db->prepare("SELECT * FROM user WHERE email = :email");
+        $a->execute([
+          'email' => $_SESSION['Mail']
+        ]);
+
+        $result = $a->fetch();
+
+        $q= $db->prepare("DELETE FROM cart WHERE Id_user = :Id_user");
+        $q->execute([
+          'Id_user' => $result['Id']
+        ]);
+
         session_unset();
         session_destroy();
         ?>
