@@ -122,7 +122,7 @@ Flowing with natural hot springs, brimming with Christian and Jewish holy sites 
 
         <div class="item">
         <img src="img/jaffa.jpg">
-            <h3><b>Netanya</b></h3>
+            <h3><b>Jaffa</b></h3>
             <p>Jaffa (also known as Yafo) is the ancient port city out of which Tel Aviv has now grown. In recent years, like much of South Tel Aviv, this area has been regenerated. The old narrow streets and courtyards are now another highly desirable part of Tel Aviv’s urban tapestry.
 Jaffa’s flea market is a well-known attraction of the area. Here, the vendors sell a diverse range of interesting and unique products from Turkish carpets to original art. Meanwhile, the narrow passageways and ancient buildings in the Old City are worlds away from modern Tel Aviv.</p>
             <button id="place_7" onclick="place_7()">View More</button>
@@ -130,14 +130,14 @@ Jaffa’s flea market is a well-known attraction of the area. Here, the vendors 
         </div>
         <div class="item">
         <img src="img/ashdod.jpg">
-            <h3><b>Tel Aviv</b></h3>
+            <h3><b>Ashdod</b></h3>
             <p>Ashdod is the sixth-largest city and the largest port in Israel accounting for 60% of the country's imported goods. Ashdod is located in the Southern District of the country, on the Mediterranean coast where it is situated between Tel Aviv to the north and Ashkelon. The city is also an important regional industrial center.Modern Ashdod covers the territory of two ancient twin towns, one inland and one on the coast, which were for most of their history two separate entities, connected though by close ties with each other.</p>
             <button id="place_8" onclick="place_8()">View More</button>
 
         </div>
         <div class="item">
         <img src="img/nahariya.jpg">
-            <h3><b>Tiberias</b></h3>
+            <h3><b>Nahariya</b></h3>
             <p>Nahariya is Israel’s northernmost coastal city, a last testament to the seaside settlements that reach up along the sunny Mediterranean shoreline. Being the end of the train-line and just a few minutes from Rosh HaNikra, with its famous white sandstone grottos, tourists often find themselves Nahariya, a vibrant, little city. With a lively nucleus, comprised of a wide boulevard, divided by a river and lined with shops, restaurants, bars and hotels, and the seafront bars and restaurants, Nahariya provides sun-lovers with an idyllic vacation spot.</p>
             <button id="place_9" onclick="place_9()">View More</button>
 				</div>
