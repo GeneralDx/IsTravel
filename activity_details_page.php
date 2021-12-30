@@ -128,8 +128,11 @@
   <body>
 		<div class="activity">
     <?php
+		$id_save = 0;
+
 		if(isset($_POST['formsend_select_activity'])) {
 			extract($_POST);
+			$id_save = $id;
 
 	    $q = $db->prepare("SELECT * FROM activities WHERE Id = :Id");
 			$q->execute([
@@ -155,48 +158,31 @@
 	</div>
 
 	<h1>Comments</h1>
-      <div class="add_comment">
-      <form method="post">
-				<label for="name"><b>Name</b></label><br>
-				<input type="text" name="name" id="name" placeholder="Your Name" required><br>
-				<label for="comment"><b>Comment</b></label><br>
-				<textarea placeholder="Write your comment about this activity" name="comment" id="comment" cols="40" rows="5" required></textarea><br>
-        <input type="text" name="date" value="<?php echo time(); ?>" style="display:none" >
-        <input type="submit" name="formsend_activity_comment" id="formsend_activity_comment" class="formsend_activity_comment" value="Send">
-      </form>
-			<hr>
-
 			<?php
-			// namespace add_trip_test;
-
-				class add_comment {
-					function add_co($comment, $date, $name, $db) {
-						$q = $db->prepare("INSERT INTO activity_comment(comment, date, name) VALUES(:comment, :date, :name)");
-						$q->execute([
-							'comment' => $comment,
-							'date' => $date,
-							'name' => $name
-						]);
-						echo "Your comment was sent !";
-						?>
-							<meta http-equiv="refresh" content="0.0001;URL=/IsTravel/activity_details_page.php">
-						<?php
-						return true;
-					}
-				}
-
-				if(isset($_POST['formsend_activity_comment'])) {
-					extract($_POST);
-
-					$add_comment = new add_comment();
-					$add_comment->add_co($comment, $date, $name, $db);
-				}
+				if (isset($_SESSION['Type'])) {
 			?>
-		</div>
+	      <div class="add_comment">
+		      <form method="post">
+						<input type="text" name="Id_activity" value="<?php echo $id_save; ?>" style="display:none" >
+						<label for="comment"><b>Comment</b></label><br>
+						<textarea placeholder="Write your comment about this activity" name="comment" id="comment" cols="40" rows="5" required></textarea><br>
+		        <input type="text" name="date" value="<?php echo time(); ?>" style="display:none" >
+		        <input type="submit" name="formsend_activity_comment" id="formsend_activity_comment" class="formsend_activity_comment" value="Send">
+		      </form>
+				<hr>
+
+		<?php
+			}
+			require_once 'add_comment.php';
+		?>
+
+			</div>
 		<div class="coms">
       <?php
-      $q= $db->prepare("SELECT * FROM activity_comment");
-      $q->execute();
+      $q= $db->prepare("SELECT * FROM activity_comment WHERE Id_activity = :Id_activity");
+      $q->execute([
+				'Id_activity' => $id_save
+			]);
       $result=$q->fetchall();
 
       date_default_timezone_set('Asia/Jerusalem');
@@ -206,7 +192,7 @@
 					<div class="com">
 						<h3><b><?php echo $res['name']; ?></b></h3>
 	          <p><?php echo $res['comment']; ?></p><br>
-	          <span><?php echo date('m/d/Y H:i', $res['date']); ?></span>
+	          <span><?php echo date('d/m/Y H:i', $res['date']); ?></span>
 					</div>
 
 				<?php

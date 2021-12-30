@@ -119,9 +119,9 @@
 	        <h2> Place: <?php echo $res['place']; ?> </h2>
 	        <h2> Price: <?php echo $res['price']; ?>₪ </h2>
 					<p> <?php echo nl2br($res['description']); ?> </p>
-					<form method="post" class="to_cart" action="homepage.php">
+					<form method="post" class="to_cart">
 						<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
-						<select name="persons">
+						<select name="quantity">
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -135,6 +135,8 @@
 	      <?php
 	    }
 		}
+
+		require_once 'add_cart.php';
     ?>
 	</div>
   </body>
