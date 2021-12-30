@@ -78,7 +78,7 @@
         <div class="item">
             <img src="img/jerusalem.jpg">
             <h3><b>Beer Sheva</b></h3>
-						<p>FacebookWhatsAppTwitterPinterestCopy Link
+						<p>
 Beer Sheva is the capital of the Negev region of Israel, a desert city that serves as the gateway to this region. There are a number of interesting things to do in Beer Sheva, an ancient city dating from Biblical times, including the old Turkish town, which is the only planned Ottoman city in the region, the Turkish railway station, and the Bedouin market, as well as Tel Beer Sheba, an UNESCO World Heritage Site.</p>
             <button id="place_1" onclick="place_1()">View More</button>
 
