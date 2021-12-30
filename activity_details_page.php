@@ -36,6 +36,10 @@
 				margin-right: 5px;
       }
 
+			span{
+				color:#0148ba;
+			}
+			
 			p{
 				text-align: justify;
 			}
