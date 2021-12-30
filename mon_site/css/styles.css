@@ -1,0 +1,83 @@
+	/*p.bienvenue{
+	color: red;
+	background-color: #EDFE00;
+}
+
+p.vivacss{
+	color: blue;
+	font-weight: bold;
+}
+
+body{
+	background-color: #949683;
+}
+
+h2.headline{
+	font-size: 100px;
+	padding-left: 200px;
+}
+
+a{
+	color: black;
+	opacity: 0.5;
+}*/
+
+div#content{
+	background-color: black;
+}
+
+div#content div{ 
+	/*faire moitie moitie pour chaque boite*/
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div h1, p, iframe{
+	margin: 35px;
+}
+
+div#content div.leftbox{
+	background-color: green;
+	vertical-align: top;
+}
+
+div#content div.annonce{
+	background-color: purple;
+	width:  100%;
+	margin: 10px;
+}
+
+div#content div.annonce img{
+	border-radius: 20%;
+}
+
+div#content div.rightbox{
+	background-color: yellow;
+}
+
+nav.menu-nav ul li.btn{
+		display:  inline-block; 
+		list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a{
+	color:  blue;
+	background: red;
+	text-decoration: none;
+	padding:  10 px;
+	font-size: 50px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	color:  red;
+	background: blue;
+	transition: 0.3s all;
+}
+
+header{
+	background: #B8B8B8;
+}
+footer{
+	background: #B8B8B8;
+}
+

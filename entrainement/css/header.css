@@ -1,0 +1,32 @@
+/*BODY*/
+body
+{
+	background-color: #FEC0EC;
+}
+
+/*HEADER*/
+header
+{
+	background-color: #FEC0EC;
+}
+div#gauche
+{ 
+	display: inline-block;
+	width: 11%;
+}
+div#milieu
+{ 
+	display: inline-block;
+	width: 77%;
+	font-size: 45px;
+	color: #FE00B2;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 70px;
+}
+div#droite
+{ 
+	display: inline-block;
+	width: 11%;
+}

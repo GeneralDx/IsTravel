@@ -1,0 +1,24 @@
+/*BODY*/
+body
+{
+	background-color: #FEC0EC;
+}
+
+/*INFORMATIONS*/
+div#infos h3
+{
+	text-align: center;
+	vertical-align: top;
+	color: #FE00B2;
+	text-decoration-line: underline;
+}
+div#infos 
+{
+	text-align: center;
+	vertical-align: top;
+	color: #FE00B2;
+}
+div#infos a
+{
+	color: #FE00B2;
+}
