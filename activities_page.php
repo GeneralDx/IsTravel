@@ -63,25 +63,6 @@
 				background: #91D7FF;
 			}
 
-			.formsend_select_trip{
-				padding: 5px 30px;
-				border: none;
-				outline: none;
-				background-color: #0148ba;
-				color: white;
-				cursor: pointer;
-				border-radius: 4px;
-				font-size: 20px;
-				display: block;
-				margin: auto;
-				transition: 0.2s all;
-				margin-bottom: 10px;
-			}
-
-			.formsend_select_trip:hover{
-				transform: scale(1.08);
-			}
-
     </style>
   </head>
 

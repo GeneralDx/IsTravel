@@ -15,11 +15,16 @@
     	justify-content: space-between;
 		}
 
-		.img{
+		.image{
 			float: left;
 			width: 40%;
+			height: 200px;
 			margin-left: 10px;
 			margin-right: 10px;
+		}
+
+		.image img{
+			width: 100%;
 		}
 
 		.details{
@@ -106,8 +111,8 @@
 
 	    foreach($result as $res){
 	      ?>
-				<div class="img">
-					<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
+				<div class="image">
+					<img src="/IsTravel/img/<?php echo $res['image']; ?>">
 				</div>
 	      <div class="details">
 	        <h1> <?php echo $res['title']; ?> </h1>
