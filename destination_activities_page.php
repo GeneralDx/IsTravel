@@ -115,7 +115,7 @@ Beer Sheva is the capital of the Negev region of Israel, a desert city that serv
             <img src="img/tiberias.jpg">
             <h3><b>Tiberias</b></h3>
             <p>Sitting on the edge of the Sea of Galilee, Tiberias is the perfect base to explore this region. It is a famous historical and tourist town. The ancient city is located in the southern part of today's agglomeration.
-Flowing with natural hot springs, brimming with Christian and Jewish holy sites and hugging the shores of the Sea of Galilee, Tiberias is a top tourist stopover for visitors to Israel. The city boasts many historical and religious sites as well as water recreation options.</p>
+Flowing with natural hot springs, brimming with Christian and Jewish holy sites and hugging the shores of the Sea of Galilee, Tiberias is a top tourist stopover for visitors to Israel. The city boasts many historical and religious sites.</p>
             <button id="city_6" onclick="city_6()">View More</button>
 
         </div>
