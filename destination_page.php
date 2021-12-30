@@ -100,20 +100,20 @@ Beer Sheva is the capital of the Negev region of Israel, a desert city that serv
         </div>
         <div class="item">
         <img src="img/eilat.jpg">
-            <h3><b>Haifa</b></h3>
+            <h3><b>Eilat</b></h3>
             <p>Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan.</p>
             <button id="place_4" onclick="place_4()">View More</button>
         </div>
 
         <div class="item">
         <img src="img/eingedi.jpg">
-            <h3><b>Jerusalem</b></h3>
+            <h3><b>Ein Gedi</b></h3>
             <p>Ein Gedi, just aside the Dead Sea in the Judean Desert, is one of Israel’s premier hiking spots, featuring spectacular beauty, varied landscapes, and botanical gardens. There’s no doubt that Ein Gedi Nature Reserve is one of the most beautiful places in Israel. While it is located close to Jerusalem, it feels worlds away, Ein Gedi is, of course, one of the most popular escape spots for locals and tourists who take advantage of the reserve, botanical gardens, and the Dead Sea.</p>
             <button id="place_5" onclick="place_5()">View More</button>
         </div>
         <div class="item">
             <img src="img/tiberias.jpg">
-            <h3><b>Mitspe Ramon</b></h3>
+            <h3><b>Tiberias</b></h3>
             <p>Sitting on the edge of the Sea of Galilee, Tiberias is the perfect base to explore this region. It is a famous historical and tourist town. The ancient city is located in the southern part of today's agglomeration.
 Flowing with natural hot springs, brimming with Christian and Jewish holy sites and hugging the shores of the Sea of Galilee, Tiberias is a top tourist stopover for visitors to Israel. The city boasts many historical and religious sites as well as water recreation options.</p>
             <button id="place_6" onclick="place_6()">View More</button>
