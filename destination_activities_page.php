@@ -133,10 +133,15 @@ Within Mitzpe Ramon is the newly opened Ramon Crater Mitzpe Ramon Visitor Center
         </div>
 
         <div class="item">
-        <img src="img/jaffa.jpg">
+        <img src="img/netanya.jpg">
             <h3><b>Netanya</b></h3>
-            <p>Jaffa (also known as Yafo) is the ancient port city out of which Tel Aviv has now grown. In recent years, like much of South Tel Aviv, this area has been regenerated. The old narrow streets and courtyards are now another highly desirable part of Tel Aviv’s urban tapestry.
-Jaffa’s flea market is a well-known attraction of the area. Here, the vendors sell a diverse range of interesting and unique products from Turkish carpets to original art. Meanwhile, the narrow passageways and ancient buildings in the Old City are worlds away from modern Tel Aviv.</p>
+            <p>
+A Diamond on the Med is not just a nick name given to this City.
+Netanya, is a true diamond which is only being descovered in these last few years with the help of many tourists that have started the visiting the great hotels in Netanya and enjoying the large variaty of restaurants and the activities that Netanya is offering its visitors.
+
+Netanya is located on the beach of the mediterranean sea and only 10 minutes drive from Israels cultural capital, Tel Aviv, you can check our maps to see how easy it is to travel israel when you are based in Netanya.
+
+Netanya not only offers a great starting point for your trip accross Israel and the Middle East, but also a great place to spend you days, with its great museums, galleries, culture events and other activities.</p>
             <button id="city_7" onclick="city_7()">View More</button>
 
         </div>
