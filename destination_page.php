@@ -92,7 +92,9 @@ Beer Sheva is the capital of the Negev region of Israel, a desert city that serv
         <div class="item">
         <img src="img/telaviv.jpg">
             <h3><b>Eilat</b></h3>
-            <p>With its hot artistic vibe, miles of picturesque city-side beaches, fascinating neighborhoods and a thriving nightlife, Tel Aviv seems to have it all. Yet Israel’s second largest—and no doubt hippest—city remains under-appreciated by most travelers. Thankfully, a series of hotel openings, city-wide renovations and a renewed appreciation for the city’s historic offerings has finally started to garner this glam metropolis the attention it so rightly deserves.</p>
+            <p>Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan. Eilat is really a place to visit.
+                
+           </p>
             <button id="place_3" onclick="place_3()">View More</button>
 
         </div>
@@ -103,7 +105,7 @@ Beer Sheva is the capital of the Negev region of Israel, a desert city that serv
             For travelers who want a base with both good access to the sights of the north and plentiful city buzz, with a thriving café and dining scene, this is one of the best places to visit.
             Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature.
             
-            Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan.</p>
+            </p>
             <button id="place_4" onclick="place_4()">View More</button>
         </div>
 
@@ -133,7 +135,9 @@ Jaffa’s flea market is a well-known attraction of the area. Here, the vendors 
         <div class="item">
         <img src="img/ashdod.jpg">
             <h3><b>Tel Aviv</b></h3>
-            <p>Ashdod is the sixth-largest city and the largest port in Israel accounting for 60% of the country's imported goods. Ashdod is located in the Southern District of the country, on the Mediterranean coast where it is situated between Tel Aviv to the north and Ashkelon. The city is also an important regional industrial center.Modern Ashdod covers the territory of two ancient twin towns, one inland and one on the coast, which were for most of their history two separate entities, connected though by close ties with each other.</p>
+            <p> With its hot artistic vibe, miles of picturesque city-side beaches, fascinating neighborhoods and a thriving nightlife, Tel Aviv seems to have it all. Yet Israel’s second largest—and no doubt hippest—city remains under-appreciated by most travelers. Thankfully, a series of hotel openings, city-wide renovations and a renewed appreciation for the city’s historic offerings has finally started to garner this glam metropolis the attention it so rightly deserves.
+
+                Ashdod is the sixth-largest city and the largest port in Israel accounting for 60% of the country's imported goods. Ashdod is located in the Southern District of the country, on the Mediterranean coast where it is situated between Tel Aviv to the north and Ashkelon. The city is also an important regional industrial center.Modern Ashdod covers the territory of two ancient twin towns, one inland and one on the coast, which were for most of their history two separate entities, connected though by close ties with each other.</p>
             <button id="place_8" onclick="place_8()">View More</button>
 
         </div>
