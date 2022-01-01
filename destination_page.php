@@ -124,7 +124,7 @@ For believers, a visit to Jerusalem is a pilgrimage to one of the most sacred si
             <button id="place_5" onclick="place_5()">View More</button>
         </div>
         <div class="item">
-            <img src="img/tiberias.jpg">
+            <img src="img/mitzperamon.jpg">
             <h3><b>Mitspe Ramon</b></h3>
             <p>The town of Mitzpe Ramon sits on the edge of the Ramon Crater in the Negev Desert of Southern Israel. 
                 Mitzpe Ramon sits on the northern cliffs of the unique and magical Ramon Crater, and is the best place to stay if you want to explore the makhtesh, hike or bike in it, or explore its nature and wildlife. It is also the perfect place from which to take a jeep tour of the Ramon Crater.
@@ -135,10 +135,15 @@ Within Mitzpe Ramon is the newly opened Ramon Crater Mitzpe Ramon Visitor Center
         </div>
 
         <div class="item">
-        <img src="img/jaffa.jpg">
+        <img src="img/netanya.jpg">
             <h3><b>Netanya</b></h3>
-            <p>Jaffa (also known as Yafo) is the ancient port city out of which Tel Aviv has now grown. In recent years, like much of South Tel Aviv, this area has been regenerated. The old narrow streets and courtyards are now another highly desirable part of Tel Aviv’s urban tapestry.
-Jaffa’s flea market is a well-known attraction of the area. Here, the vendors sell a diverse range of interesting and unique products from Turkish carpets to original art. Meanwhile, the narrow passageways and ancient buildings in the Old City are worlds away from modern Tel Aviv.</p>
+            <p>
+A Diamond on the Med is not just a nick name given to this City.
+Netanya, is a true diamond which is only being descovered in these last few years with the help of many tourists that have started the visiting the great hotels in Netanya and enjoying the large variaty of restaurants and the activities that Netanya is offering its visitors.
+
+Netanya is located on the beach of the mediterranean sea and only 10 minutes drive from Israels cultural capital, Tel Aviv, you can check our maps to see how easy it is to travel israel when you are based in Netanya.
+
+Netanya not only offers a great starting point for your trip accross Israel and the Middle East, but also a great place to spend you days, with its great museums, galleries, culture events and other activities.</p>
             <button id="place_7" onclick="place_7()">View More</button>
 
         </div>
