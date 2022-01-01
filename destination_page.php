@@ -76,18 +76,17 @@
     <h1 id="h1">Trips Available now</h1>
     <div class="items">
         <div class="item">
-            <img src="img/jerusalem.jpg">
+            <img src="img/beersheva.jpg">
             <h3><b>Beer Sheva</b></h3>
-						<p>Be'er Sheva is located in the northern Negev, known as the "capital of the Negev and the south" due to being the central and largest city in the region. This city shows the progress of the country</p>
+						<p>
+Beer Sheva is the capital of the Negev region of Israel, a desert city that serves as the gateway to this region. Beer Sheva is generally not on the agendas of many tourists to Israel, and is therefore somewhat of an off the beaten track destination. There are a number of interesting and unique things to do in Beer Sheva, including the old Turkish town, which is the only planned Ottoman city in the region, the Turkish railway station, Tel Beer Sheba and UNESCO World Heritage Site.</p>
             <button id="place_1" onclick="place_1()">View More</button>
 
         </div>
         <div class="item">
-        <img src="img/haifa.jpg">
+        <img src="img/deadsea.jpg">
             <h3><b>Dead Sea</b></h3>
-            <p>Modern Haifa is a bustling port town, but unlike many industry-focused cities, its landscape of steep cliffs rolling down to the shore gives it a beautiful setting.
-            For travelers who want a base with both good access to the sights of the north and plentiful city buzz, with a thriving café and dining scene, this is one of the best places to visit.
-            Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature.</p>
+            <p>The Dead Sea is an outstanding natural body of water situated between Israel and Jordan at the lowest point on earth, stretching from the Judean Desert through to the Arava Desert and flanked by mountains on both sides. It’s so salty that its salt crystals are often visible on the surface, and anyone going for a swim in the Dead Sea floats pretty much instantly. It’s dubbed the Dead Sea because the salty nature of the water disallows marine life from living here, although it does sustain smaller organisms like algae. </p>
             <button id="place_2" onclick="place_2()">View More</button>
         </div>
         <div class="item">
@@ -100,7 +99,11 @@
         <div class="item">
         <img src="img/eilat.jpg">
             <h3><b>Haifa</b></h3>
-            <p>Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan.</p>
+            <p>Modern Haifa is a bustling port town, but unlike many industry-focused cities, its landscape of steep cliffs rolling down to the shore gives it a beautiful setting.
+            For travelers who want a base with both good access to the sights of the north and plentiful city buzz, with a thriving café and dining scene, this is one of the best places to visit.
+            Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature.
+            
+            Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan.</p>
             <button id="place_4" onclick="place_4()">View More</button>
         </div>
 
