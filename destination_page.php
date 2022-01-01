@@ -148,11 +148,13 @@ Netanya not only offers a great starting point for your trip accross Israel and 
 
         </div>
         <div class="item">
-        <img src="img/ashdod.jpg">
+        <img src="img/telaviv.jpg">
             <h3><b>Tel Aviv</b></h3>
-            <p> With its hot artistic vibe, miles of picturesque city-side beaches, fascinating neighborhoods and a thriving nightlife, Tel Aviv seems to have it all. Yet Israel’s second largest—and no doubt hippest—city remains under-appreciated by most travelers. Thankfully, a series of hotel openings, city-wide renovations and a renewed appreciation for the city’s historic offerings has finally started to garner this glam metropolis the attention it so rightly deserves.
+            <p>Rimmed by stretches of golden beach and renowned for its lively café culture and innovative dining scene, Tel Aviv is Israel's most cosmopolitan and youthful city.
 
-                Ashdod is the sixth-largest city and the largest port in Israel accounting for 60% of the country's imported goods. Ashdod is located in the Southern District of the country, on the Mediterranean coast where it is situated between Tel Aviv to the north and Ashkelon. The city is also an important regional industrial center.Modern Ashdod covers the territory of two ancient twin towns, one inland and one on the coast, which were for most of their history two separate entities, connected though by close ties with each other.</p>
+Soaking up the sun and sand, shopping in arty boutiques, and enjoying some serious foodie action are Tel Aviv's major things to do, and what the city lacks in major tourist attractions it makes up for with its laid-back atmosphere.
+
+Nicknamed "The White City," the town was awarded UNESCO World Heritage Status in 2003 in recognition of its fine examples of Bauhaus architecture (an early 20th-century Modernist style of building). There are also a number of art galleries and small, specialist museums for sightseeing off the beach. For historic ambience, though, one of the best places to visit is Jaffa, just to the south. </p>
             <button id="place_8" onclick="place_8()">View More</button>
 
         </div>
