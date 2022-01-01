@@ -90,9 +90,11 @@
             <button id="city_2" onclick="city_2()">View More</button>
         </div>
         <div class="item">
-        <img src="img/telaviv.jpg">
+        <img src="img/eilat.jpg">
             <h3><b>Eilat</b></h3>
-            <p>With its hot artistic vibe, miles of picturesque city-side beaches, fascinating neighborhoods and a thriving nightlife, Tel Aviv seems to have it all. Yet Israel’s second largest—and no doubt hippest—city remains under-appreciated by most travelers. Thankfully, a series of hotel openings, city-wide renovations and a renewed appreciation for the city’s historic offerings has finally started to garner this glam metropolis the attention it so rightly deserves.</p>
+            <p>Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan. Eilat is really a place to visit.
+                
+                </p>
             <button id="city_3" onclick="city_3()">View More</button>
 
         </div>
