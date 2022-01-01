@@ -156,9 +156,9 @@ Nicknamed "The White City," the town was awarded UNESCO World Heritage Status in
 
         </div>
         <div class="item">
-        <img src="img/nahariya.jpg">
+        <img src="img/tiberias.jpg">
             <h3><b>Tiberias</b></h3>
-            <p>Nahariya is Israel’s northernmost coastal city, a last testament to the seaside settlements that reach up along the sunny Mediterranean shoreline. Being the end of the train-line and just a few minutes from Rosh HaNikra, with its famous white sandstone grottos, tourists often find themselves Nahariya, a vibrant, little city. With a lively nucleus, comprised of a wide boulevard, divided by a river and lined with shops, restaurants, bars and hotels, and the seafront bars and restaurants, Nahariya provides sun-lovers with an idyllic vacation spot.</p>
+            <p>Tiberias is one of Judaism's four holy cities, the burial place of venerated Jewish sages and a very popular base for Christians visiting holy sites around the Sea of Galilee. It's also one of the most aesthetically challenged resort towns in Israel, its sunbaked lakeside strip marred by 1970s architectural monstrosities. So the sacred and the kitsch – plus beaches, hot springs and a growing ultra-Orthodox population – coexist side by side in a whirl of holiness, hawkers and hedonism.  Tiberias received an influx of rabbis who established the city as a center for Jewish learning. Tiberias is one of the Jewish Four Holy Cities, along with Jerusalem, Hebron, and Safed. It is a pleasant lakefront resort, and also a good base for visiting the Galilee and Golan </p>
             <button id="city_9" onclick="city_9()">View More</button>
 				</div>
 
