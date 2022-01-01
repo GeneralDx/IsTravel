@@ -113,10 +113,13 @@ The Baha'i Gardens are also an example of the modern town's overall harmonious a
         </div>
 
         <div class="item">
-        <img src="img/eingedi.jpg">
+        <img src="img/jerusalem.jpg">
             <h3><b>Jerusalem</b></h3>
-            <p>Ein Gedi, just aside the Dead Sea in the Judean Desert, is one of Israel’s premier hiking spots, featuring spectacular beauty, varied landscapes, and botanical gardens. There’s no doubt that Ein Gedi Nature Reserve is one of the most beautiful places in Israel. While it is located close to Jerusalem, it feels worlds away, Ein Gedi is, of course, one of the most popular escape spots for locals and tourists who take advantage of the reserve, botanical gardens, and the Dead Sea.</p>
-            <button id="city_5" onclick="city_5()">View More</button>
+            <p>The most contested city on Earth is also one of the most beautiful. Jerusalem's scope of history is staggering, and the major role the city plays in the traditions of all three major monotheistic faiths has led to it being continually fought over, across the centuries.
+
+This is the heart of the Holy Land, where the Jews raised the First Temple to keep the Ark of the Covenant safe, where Jesus was crucified and rose again, and where the Prophet Muhammad ascended to heaven to receive God's word.
+
+For believers, a visit to Jerusalem is a pilgrimage to one of the most sacred sites in the world. The number of religious tourist attractions here can be baffling for first-time visitors, but luckily most of the things to do are secreted within the lanes of the compact Old City district.</p>            <button id="city_5" onclick="city_5()">View More</button>
         </div>
         <div class="item">
             <img src="img/tiberias.jpg">
