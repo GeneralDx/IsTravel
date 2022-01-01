@@ -126,8 +126,10 @@ For believers, a visit to Jerusalem is a pilgrimage to one of the most sacred si
         <div class="item">
             <img src="img/tiberias.jpg">
             <h3><b>Mitspe Ramon</b></h3>
-            <p>Sitting on the edge of the Sea of Galilee, Tiberias is the perfect base to explore this region. It is a famous historical and tourist town. The ancient city is located in the southern part of today's agglomeration.
-Flowing with natural hot springs, brimming with Christian and Jewish holy sites and hugging the shores of the Sea of Galilee, Tiberias is a top tourist stopover for visitors to Israel. The city boasts many historical and religious sites as well as water recreation options.</p>
+            <p>The town of Mitzpe Ramon sits on the edge of the Ramon Crater in the Negev Desert of Southern Israel. 
+                Mitzpe Ramon sits on the northern cliffs of the unique and magical Ramon Crater, and is the best place to stay if you want to explore the makhtesh, hike or bike in it, or explore its nature and wildlife. It is also the perfect place from which to take a jeep tour of the Ramon Crater.
+
+Within Mitzpe Ramon is the newly opened Ramon Crater Mitzpe Ramon Visitor Center which tells the geological story of the formation of the makhtesh, the largest landform of its type in the world. As part of the exhibition is the Ilan Ramon Memorial, telling the story of Israel’s first astronaut, Ilan Ramon who died in the 2003 Colombia Disaster, and loved the Ramon Crater and surrounding desert area.</p>
             <button id="place_6" onclick="place_6()">View More</button>
 
         </div>
