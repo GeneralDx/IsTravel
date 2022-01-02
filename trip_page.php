@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <title>Trips</title>
     <style>
-
 		.trips{
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
@@ -88,26 +87,29 @@
 			$row_count = $q->rowCount();
 
 			if ($row_count > 0) {
+				?>
+					<div class="trips">
+				<?php
 		    foreach($result as $res){
 		      ?>
-					<div class="trips">
 		      	<div class="trip">
-		        <div class="img">
-							<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
-		        </div>
-		        <h1> <?php echo $res['title']; ?> </h1>
-		        <h2> Place: <?php echo $res['place']; ?> </h2>
-		        <h2> Price: <?php echo $res['price']; ?>₪ </h2>
-						<form class="trip_details" method="post" action="trip_details_page.php">
-							<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
-							<input type="submit" name="formsend_select_trip" id="formsend_select_trip" class="formsend_select_trip" value="View more">
-						</form>
+			        <div class="img">
+								<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
+			        </div>
+			        <h1> <?php echo $res['title']; ?> </h1>
+			        <h2> Place: <?php echo $res['place']; ?> </h2>
+			        <h2> Price: <?php echo $res['price']; ?>₪ </h2>
+							<form class="trip_details" method="post" action="trip_details_page.php">
+								<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
+								<input type="submit" name="formsend_select_trip" id="formsend_select_trip" class="formsend_select_trip" value="View more">
+							</form>
 		      </div>
-				</div>
-
 		      <?php
 		    }
-			}
+				?>	
+			</div>
+			<<?php
+		}
 			else {
 				?>
 				<div class="no_trip">

@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>Activities</title>
     <style>
-		
+
 		.activities{
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
@@ -90,9 +90,11 @@
 			$row_count = $q->rowCount();
 
 			if ($row_count > 0) {
+				?>
+				<div class="activities">
+					<?php
 		    foreach($result as $res){
 		      ?>
-					<div class="activities">
 			      <div class="activity">
 		          <div class="img">
 								<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
@@ -104,9 +106,11 @@
 								<input type="submit" name="formsend_select_activity" id="formsend_select_activity" class="formsend_select_activity" value="View more">
 							</form>
 			      </div>
-					</div>
 		      <?php
 		    }
+				?>
+				</div>
+				<?php
 			} else {
 				?>
 				<div class="no_activity">

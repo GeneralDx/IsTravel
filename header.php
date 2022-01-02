@@ -4,9 +4,18 @@
   <head>
     <meta charset="utf-8">
     <style>
-      body {
+      /* body {
           background-image: url("/IsTravel/img/wallpaper.jpg");
-      }
+          width: 100%;
+          height: 100%;
+      } */
+
+      body {
+        background-image: url("/IsTravel/img/wallpaper.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
 
       .div_nav{
         background-color: #FFFFFF;
