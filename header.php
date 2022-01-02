@@ -51,8 +51,8 @@
         border: none;
         color: white;
         text-decoration: none;
-        margin-left: 35px;
-        margin-right: 35px
+        margin-left: 33%;
+        margin-right: 33%;
       }
       #deconnection:hover{
         background-color: white;
