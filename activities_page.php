@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>Activities</title>
     <style>
-
+		
 		.activities{
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
@@ -65,7 +65,10 @@
 
 			#no_activity{
 				color: #0148ba;
-				font-size: 20px;
+				font-size: 30px;
+			}
+
+			.no_activity{
 				text-align: center;
 			}
 
@@ -73,8 +76,6 @@
   </head>
 
   <body>
-		<div class="activities">
-
     <?php
 		if(isset($_POST['formsend_city'])) {
 			extract($_POST);
@@ -91,27 +92,32 @@
 			if ($row_count > 0) {
 		    foreach($result as $res){
 		      ?>
-		      <div class="activity">
-	          <div class="img">
-							<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
-		        </div>
-		        <h1> <?php echo $res['activity_name']; ?> </h1>
-		        <h2> Place: <?php echo $res['city']; ?> </h2>
-						<form class="trip_details" method="post" action="activity_details_page.php">
-							<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
-							<input type="submit" name="formsend_select_activity" id="formsend_select_activity" class="formsend_select_activity" value="View more">
-						</form>
-		      </div>
+					<div class="activities">
+			      <div class="activity">
+		          <div class="img">
+								<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
+			        </div>
+			        <h1> <?php echo $res['activity_name']; ?> </h1>
+			        <h2> Place: <?php echo $res['city']; ?> </h2>
+							<form class="trip_details" method="post" action="activity_details_page.php">
+								<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
+								<input type="submit" name="formsend_select_activity" id="formsend_select_activity" class="formsend_select_activity" value="View more">
+							</form>
+			      </div>
+					</div>
 		      <?php
 		    }
 			} else {
 				?>
+				<div class="no_activity">
 					<span id="no_activity">There is no activities available at this city for the moment</span>
+				</div>
+
+</div>
 				<?php
 			}
 		}
     ?>
-		</div>
 
   </body>
 </html>
