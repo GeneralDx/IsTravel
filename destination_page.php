@@ -62,6 +62,10 @@
 						padding: 10px;
         }
 
+				p{
+					text-align: justify;
+				}
+
 				#h1{
 					color: #0148ba;
 				}
@@ -90,10 +94,10 @@ Beer Sheva is the capital of the Negev region of Israel, a desert city that serv
             <button id="place_2" onclick="place_2()">View More</button>
         </div>
         <div class="item">
-        <img src="img/telaviv.jpg">
+        <img src="img/eilat.jpg">
             <h3><b>Eilat</b></h3>
             <p>Eilat is Israel's southernmost city and the country's only outpost on the shores of the Red Sea, which it shares with three other nations: Jordan and Egypt, which both have a land border with the city. As the country's vacation city par excellence, many Israelis insist on visiting Eilat at least once a year or, at the very least, going through it en route to neighboring destinations, when they incorporate an overnight there with a vacation in Sinai or a trip to Jordan. Eilat is really a place to visit.
-                
+
            </p>
             <button id="place_3" onclick="place_3()">View More</button>
 
@@ -108,7 +112,7 @@ For travelers who want a base with both good access to the sights of the north a
 Haifa's hillside location is enhanced by the Baha'i Gardens, which are the central city's dominating feature. These cascading terraces of manicured lawns are Haifa's number one tourist attraction.
 
 The Baha'i Gardens are also an example of the modern town's overall harmonious approach to life. As well as being a center for the Baha'i faith, Haifa's mixed population of Jews and Arabs is much less segregated here than elsewhere.
-            
+
             </p>
             <button id="place_4" onclick="place_4()">View More</button>
         </div>
@@ -126,8 +130,8 @@ For believers, a visit to Jerusalem is a pilgrimage to one of the most sacred si
         <div class="item">
             <img src="img/mitzperamon.jpg">
             <h3><b>Mitspe Ramon</b></h3>
-            <p>The town of Mitzpe Ramon sits on the edge of the Ramon Crater in the Negev Desert of Southern Israel. 
-                Mitzpe Ramon sits on the northern cliffs of the unique and magical Ramon Crater, and is the best place to stay if you want to explore the makhtesh, hike or bike in it, or explore its nature and wildlife. It is also the perfect place from which to take a jeep tour of the Ramon Crater.
+            <p>The town of Mitzpe Ramon sits on the edge of the Ramon Crater in the Negev Desert of Southern Israel.
+							Mitzpe Ramon sits on the northern cliffs of the unique and magical Ramon Crater, and is the best place to stay if you want to explore the makhtesh, hike or bike in it or explore its nature, wildlife. It is also the perfect place to take a Jeep ride to Ramon Crater.
 
 Within Mitzpe Ramon is the newly opened Ramon Crater Mitzpe Ramon Visitor Center which tells the geological story of the formation of the makhtesh, the largest landform of its type in the world. As part of the exhibition is the Ilan Ramon Memorial, telling the story of Israel’s first astronaut, Ilan Ramon who died in the 2003 Colombia Disaster, and loved the Ramon Crater and surrounding desert area.</p>
             <button id="place_6" onclick="place_6()">View More</button>
@@ -139,7 +143,7 @@ Within Mitzpe Ramon is the newly opened Ramon Crater Mitzpe Ramon Visitor Center
             <h3><b>Netanya</b></h3>
             <p>
 A Diamond on the Med is not just a nick name given to this City.
-Netanya, is a true diamond which is only being descovered in these last few years with the help of many tourists that have started the visiting the great hotels in Netanya and enjoying the large variaty of restaurants and the activities that Netanya is offering its visitors.
+Netanya, is a true diamond which is only being discovered in these last few years with the help of many tourists that have started the visiting the great hotels in Netanya and enjoying the large variaty of restaurants and the activities that Netanya is offering its visitors.
 
 Netanya is located on the beach of the mediterranean sea and only 10 minutes drive from Israels cultural capital, Tel Aviv, you can check our maps to see how easy it is to travel israel when you are based in Netanya.
 
@@ -150,7 +154,7 @@ Netanya not only offers a great starting point for your trip accross Israel and 
         <div class="item">
         <img src="img/telaviv.jpg">
             <h3><b>Tel Aviv</b></h3>
-            <p>Rimmed by stretches of golden beach and renowned for its lively café culture and innovative dining scene, Tel Aviv is Israel's most cosmopolitan and youthful city.
+            <p>Rimmed by stretches of golden beach and renowned for its lively coffee culture and innovative dining scene, Tel Aviv is Israel's most cosmopolitan and youthful city.
 
 Soaking up the sun and sand, shopping in arty boutiques, and enjoying some serious foodie action are Tel Aviv's major things to do, and what the city lacks in major tourist attractions it makes up for with its laid-back atmosphere.
 
@@ -161,7 +165,9 @@ Nicknamed "The White City," the town was awarded UNESCO World Heritage Status in
         <div class="item">
         <img src="img/tiberias.jpg">
             <h3><b>Tiberias</b></h3>
-            <p>Tiberias is one of Judaism's four holy cities, the burial place of venerated Jewish sages and a very popular base for Christians visiting holy sites around the Sea of Galilee. It's also one of the most aesthetically challenged resort towns in Israel, its sunbaked lakeside strip marred by 1970s architectural monstrosities. So the sacred and the kitsch – plus beaches, hot springs and a growing ultra-Orthodox population – coexist side by side in a whirl of holiness, hawkers and hedonism.  Tiberias received an influx of rabbis who established the city as a center for Jewish learning. Tiberias is one of the Jewish Four Holy Cities, along with Jerusalem, Hebron, and Safed. It is a pleasant lakefront resort, and also a good base for visiting the Galilee and Golan </p>
+            <p>Tiberias is one of Judaism's four holy cities, the burial place of venerated Jewish sages and a very popular base for Christians visiting holy sites around the Sea of Galilee.
+							It's also one of the most aesthetically challenged resort towns in Israel, its sunbaked lakeside strip marred by 1970s architectural monstrosities.
+							So the sacred and the kitsch – plus beaches, hot springs and a growing ultra-Orthodox population – coexist side by side in a whirl of holiness, hawkers and hedonism.  Tiberias received an influx of rabbis who established the city as a center for Jewish learning. There are several tombs of holy people. Tiberias is one of the Jewish Four Holy Cities, along with Jerusalem, Hebron, and Safed. It is a pleasant lakefront resort, and also a good base for visiting the Galilee and Golan. </p>
             <button id="place_9" onclick="place_9()">View More</button>
 				</div>
 
