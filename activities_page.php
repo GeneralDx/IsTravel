@@ -63,6 +63,12 @@
 				background: #91D7FF;
 			}
 
+			#no_activity{
+				color: #0148ba;
+				font-size: 20px;
+				text-align: center;
+			}
+
     </style>
   </head>
 
@@ -80,22 +86,29 @@
 			]);
 
 	    $result = $q->fetchall();
+			$row_count = $q->rowCount();
 
-	    foreach($result as $res){
-	      ?>
-	      <div class="activity">
-          <div class="img">
-						<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
-	        </div>
-	        <h1> <?php echo $res['activity_name']; ?> </h1>
-	        <h2> Place: <?php echo $res['city']; ?> </h2>
-					<form class="trip_details" method="post" action="activity_details_page.php">
-						<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
-						<input type="submit" name="formsend_select_activity" id="formsend_select_activity" class="formsend_select_activity" value="View more">
-					</form>
-	      </div>
-	      <?php
-	    }
+			if ($row_count > 0) {
+		    foreach($result as $res){
+		      ?>
+		      <div class="activity">
+	          <div class="img">
+							<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
+		        </div>
+		        <h1> <?php echo $res['activity_name']; ?> </h1>
+		        <h2> Place: <?php echo $res['city']; ?> </h2>
+						<form class="trip_details" method="post" action="activity_details_page.php">
+							<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
+							<input type="submit" name="formsend_select_activity" id="formsend_select_activity" class="formsend_select_activity" value="View more">
+						</form>
+		      </div>
+		      <?php
+		    }
+			} else {
+				?>
+					<span id="no_activity">There is no activities available at this city for the moment</span>
+				<?php
+			}
 		}
     ?>
 		</div>

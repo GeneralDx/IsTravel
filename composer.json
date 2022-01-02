@@ -19,7 +19,10 @@
 		"modify_activity_test\\": "",
 		"profil_test\\": "",
 		"suggested_activity_test\\": "",
-    "modify_trip_test\\": ""
+    "modify_trip_test\\": "",
+    "add_cart_test\\": "",
+    "add_comment_test\\": "",
+    "delete_cart_test\\": ""
     	}
     },
 

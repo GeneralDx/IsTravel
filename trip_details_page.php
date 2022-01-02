@@ -203,18 +203,24 @@
 	        <h2> Place: <?php echo $res['place']; ?> </h2>
 	        <h2> Price: <?php echo $res['price']; ?>₪ </h2>
 					<p> <?php echo nl2br($res['description']); ?> </p>
-					<form method="post" class="to_cart">
-						<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
-						<select name="quantity">
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-							<option value="6">6</option>
-						</select>
-						<input type="submit" name="formsend_add_cart" id="formsend_add_cart" class="formsend_add_cart" value="Add to cart">
-					</form>
+					<?php
+						if (isset($_SESSION['Type'])) {
+					?>
+						<form method="post" class="to_cart">
+							<input type="text" name="id" value="<?php echo $res['Id']; ?>" style="display:none">
+							<select name="quantity">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+							<input type="submit" name="formsend_add_cart" id="formsend_add_cart" class="formsend_add_cart" value="Add to cart">
+						</form>
+					<?php
+						}
+					?>
 	      </div>
 	      <?php
 	    }
