@@ -64,7 +64,10 @@
 
 			#no_trip{
 				color: #0148ba;
-				font-size: 20px;
+				font-size: 30px;
+			}
+
+			.no_trip{
 				text-align: center;
 			}
 
@@ -72,8 +75,6 @@
   </head>
 
   <body>
-		<div class="trips">
-
     <?php
 		if(isset($_POST['formsend_place'])) {
 			extract($_POST);
@@ -89,7 +90,8 @@
 			if ($row_count > 0) {
 		    foreach($result as $res){
 		      ?>
-		      <div class="trip">
+					<div class="trips">
+		      	<div class="trip">
 		        <div class="img">
 							<img src="/IsTravel/img/<?php echo $res['image']; ?>" style="text-align:center">
 		        </div>
@@ -101,16 +103,20 @@
 							<input type="submit" name="formsend_select_trip" id="formsend_select_trip" class="formsend_select_trip" value="View more">
 						</form>
 		      </div>
+				</div>
+
 		      <?php
 		    }
-			} else {
+			}
+			else {
 				?>
+				<div class="no_trip">
 					<span id="no_trip">There is no trips available to this destination for the moment</span>
+				</div>
 				<?php
 			}
 		}
     ?>
-		</div>
 
   </body>
 </html>
