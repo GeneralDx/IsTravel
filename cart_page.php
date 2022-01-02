@@ -68,7 +68,7 @@
   		margin-bottom: 25px;
 		}
 
-		h1, h2, b, p{
+		h1, h2, b, p, span{
 			color: #0148ba;
 		}
 
@@ -116,7 +116,6 @@
 
 							<label class="birthdate"><b>Date of Birth</b></label><br>
 							<input type="date" name="birthdate" id="birthdate" required><br>
-							<!-- CHECK MAJOR -->
 
 							<label class="address"><b>Address</b></label><br>
 							<input type="text" placeholder="Enter Address" name="address" id="address" required><br>
@@ -138,32 +137,6 @@
 							</select>
 							<input type="tel"  placeholder="123456789" name="phone" id="phone" required minlength="9" maxlength="9"><br>
 						</form>
-						<h2>Traveler</h2>
-						<form method="post">
-
-						<label class="first-name"><b> First Name</b></label><br>
-						<input type="text" placeholder="Enter First Name" name="first-name" id="first-name" required><br>
-
-						<label class="last-name"><b>Last Name</b></label><br>
-						<input type="text" name="last-name" placeholder="Enter Last Name" id="last-name" required><br>
-
-						<label class="birthdate"><b>Date of Birth</b></label><br>
-						<input type="date" name="birthdate" id="birthdate" required><br>
-
-						<label class="passport"><b>Passport Number</b></label><br>
-						<input type="text" placeholder="12AB34567" name="passport" id="passport" required minlength="9" maxlength="9"><br>
-
-						<label class="email"><b>E-mail</b></label><br>
-						<input type="text" placeholder="Enter Email" name="email" id="email" required><br>
-
-						<label class="name"><b>Phone Number</b></label><br>
-						<select name="phone-num">
-							<option value="french">+33</option>
-							<option value="israel">+972</option>
-						</select>
-						<input type="tel" placeholder="123456789" name="phone" id="phone" required minlength="9" maxlength="9"><br>
-					</form>
-
 					</div>
 					<div class="order">
 						<h2>Your Order</h2>
